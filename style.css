@@ -1,0 +1,98 @@
+body{
+    background-image: url('reading.jpg'),linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-repeat: no-repeat;
+    
+    
+}
+.header
+{
+    text-align: center;
+    padding-top: 10px;
+}
+li
+{
+    display:inline;
+    text-align: center;
+    list-style: none;
+    padding-left:20px;
+    font-size: 30px;
+    font-style: italic;
+}
+#border
+{
+        width: 100px;
+        height: 100px;
+        background:blue;
+        border-radius:100px;
+        margin-top: -30px;
+        padding: 50px;
+        color:white;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 5px 10px black;
+        
+}
+.notes
+{
+    width:30%;
+    height:15%;
+    background-color: blue;
+    margin-left:50%;
+    margin-top:20px;
+    color:white;
+    font-size: 50px;
+    padding-left:5px;
+    box-shadow: 5px 10px black;
+}
+.html
+{
+    width:40%;
+    height:10%;
+    background-color: blue;
+    margin-left:50%;
+    margin-top:20px;
+    color:white;
+    font-size: 50px;
+    padding-left:5px;
+    box-shadow: 5px 10px black;
+}
+.css
+{
+    width:50%;
+    height:10%;
+    background-color: blue;
+    margin-left:50%;
+    margin-top:20px;
+    color:white;
+    font-size: 50px;
+    padding-left:5px;
+    box-shadow: 5px 10px black;
+}
+.footer
+{
+    background-color:black;
+    color:white;
+    width:100%;
+    height:10%;
+    margin-top: 5%;
+}
+
+/* h1{
+    
+    background-color: black;
+    width:100%;
+    height:15%;
+    color:white;
+}
+h2{
+       text-align: center;
+       background-color: #000000;
+       color: white;
+   } */
+a
+{
+    
+    color: white;
+    text-decoration: none;
+    padding-right: 5px;
+}
