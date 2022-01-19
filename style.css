@@ -1,13 +1,23 @@
-body{
-    background-image: url('reading.jpg'),linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15),rgba(0,0,0,0.15),rgba(0,0,0,0));
+.image{
+    background-image: url('book.jpg');
     background-repeat: no-repeat;
+    width:100%;
+    height:90%;
+      
     
-    
+}
+.name
+{
+    font-size:30px;
+    padding:5px;
 }
 .header
 {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0px;
+    float:right;
+    margin-top: -40px;
+    margin-right: 5px;
 }
 li
 {
@@ -32,59 +42,90 @@ li
         box-shadow: 5px 10px black;
         
 }
-.notes
+.web
 {
-    width:30%;
-    height:15%;
-    background-color: blue;
-    margin-left:50%;
-    margin-top:20px;
+    margin-top:15%;
+    font-size: 30px;
+    background-color: transparent;
+}
+p{
+    color:black;
+    text-align: center;
+    line-height: 100px;
+    background-color: transparent;
+}
+.boot
+{
+    width:20%;
+    height:20%;
+    background-color:rgb(122, 46, 63);
     color:white;
     font-size: 50px;
     padding-left:5px;
-    box-shadow: 5px 10px black;
+    border-radius: 40px 0px 40px 0px;
+    text-align: center;
+    margin: 600px;
+    margin-top: -430px;
+    margin-left: 700px;
+   
 }
 .html
 {
-    width:40%;
-    height:10%;
-    background-color: blue;
-    margin-left:50%;
-    margin-top:20px;
+    width:20%;
+    height:20%;
+    background-color: rgb(45, 166, 182);
     color:white;
     font-size: 50px;
     padding-left:5px;
-    box-shadow: 5px 10px black;
+    border-radius: 40px 0px 40px 0px;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 20px;
+    
+}
+a:hover
+{
+    color:yellow;
+    
 }
 .css
 {
-    width:50%;
-    height:10%;
-    background-color: blue;
-    margin-left:50%;
-    margin-top:20px;
+    width:20%;
+    height:20%;
+    background-color: rgb(122, 117, 37);
     color:white;
     font-size: 50px;
     padding-left:5px;
-    box-shadow: 5px 10px black;
+    border-radius: 40px 0px 40px 0px;
+    text-align: center;
+    margin: 301px;
+    margin-top: -130px;
+    margin-left: 350px;
+    
 }
-.footer
+.js
 {
-    background-color:black;
+    width:20%;
+    height:20%;
+    background-color: rgb(39, 49, 110);
     color:white;
-    width:100%;
-    height:10%;
-    margin-top: 5%;
+    font-size: 50px;
+    padding-left:5px;
+    border-radius: 40px 0px 40px 0px;
+    text-align: center;
+    margin: 900px;
+    margin-top: -740px;
+    margin-left: 1050px;
 }
 
-/* h1{
-    
-    background-color: black;
+
+ h1{
     width:100%;
     height:15%;
-    color:white;
+    color:black;
+    text-align: center;
 }
-h2{
+/*h2{
        text-align: center;
        background-color: #000000;
        color: white;
@@ -95,4 +136,22 @@ a
     color: white;
     text-decoration: none;
     padding-right: 5px;
+}
+#contact
+{
+    background:linear-gradient(to bottom,rgb(180, 67, 67),rgb(110, 110, 223),rgb(141, 65, 112));
+    margin-top: -870px;
+    height:90%;
+    padding-top:20px;
+}
+.footer
+{
+    background-color:black;
+    color:white;
+    width:100%;
+    height:10%;
+    margin-top:5px;
+    text-align: center;
+    padding-top:15px;
+    font-size: 20px;
 }
