@@ -35,5 +35,15 @@ a
     color:white;
     width:100%;
     height:10%;
-    margin-top: 5%;
+    margin-top:5px;
+    text-align: center;
+    padding-top:15px;
+    font-size: 20px;
+}
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color:rgb(50, 52, 161);
+  text-decoration: underline;
 }

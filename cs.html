@@ -1,0 +1,355 @@
+<html>
+    <head>
+        <title>HTML</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body style="background: linear-gradient(to left,rgb(143, 148, 73),rgb(187, 116, 116));">
+        <div style="background-color:black; color:white; width:100%; height:10%; margin-top: -13px;">
+            <ul class="header">
+                <li class="list"><a href="index.html">Home</a></li>
+                <li class="list"><a href="html1.html">HTML</a></li>
+                <li class="list"><a href="boot.html">Bootstrap</a></li>
+                <li class="list"><a href="js.html">Javascript</a></li>
+            </ul> 
+            </div>
+            <div>
+                <h1>CSS</h1>
+                <ul>
+                <li>- CSS stands for Cascading Stylesheet.</li>
+                <li>- It is a stylesheet language used for describing the presentation 
+                    of document written in a markup language like HTML.</li>
+                <li> - CSS is a cornerstone technology for world wide web 
+                    alongside HTML and Javascipt.</li>
+                <li>- CSS is designed to enable separation of presentation and contents.</li>
+                <li> - All styles are stored in CSS files.</li>
+            </ul>
+            </div>
+            <hr>
+            <h1>Why CSS</h1>
+            <ul>
+            <li>- it allows much ritcher presentation appearence.</li>
+            <li> - It reduces workload by centrallizing commands for
+                visual appearence instead of scatterd ones.</li>
+            <li> - Same styles can be reused for multiple documents.</li>
+            </ul>
+            <hr>
+            <h1>Types of CSS</h1>
+            <ul>
+                <li> - Inline CSS 		- Highest Priority
+                    - can be applied to only that tag.</li>
+                <li>- Internal CSS		- Medium priority
+                        - can be applied to only that document</li>
+                <li> - External CSS		- Lowest priority
+                    - can be applied globally</li><br>
+                    <li>&lt;!DOCTYPE html&gt; <br>
+                        &lt;html&gt; <br>
+                            &lt;head&gt; <br>
+                                &lt;title&gt; <br>First CSS&lt;/title&gt; <br>
+                                &lt;link rel = "stylesheet" type = "text/css" href="style.css"&gt; <br>
+                                &lt;style&gt; <br>
+                                    p
+                                    {
+                                        font-size: 25px;
+                                        font-family: 'Courier New', Courier, monospace;
+                                    }
+                                &lt;/style&gt; <br>
+                            &lt;/head&gt; <br>
+                            &lt;body style="background-color: green;"&gt; <br>
+                                &lt;h1&gt; <br>Pranvi Computech&lt;/h1&gt; <br>
+                                &lt;h4&gt; <br>Unique technology hub&lt;/h4&gt; <br>
+                                &lt;p&gt; <br>This fist CSS session&lt;/p&gt; <br>
+                            &lt;/body&gt; <br>
+                        &lt;/html&gt; <br> 
+                        </li><br><br>
+                        <li>h1<br>
+                            {
+                                color : red;
+                            }<br>
+                            
+                            body<br>
+                            {
+                                background-color: yellow;
+                                color: white;
+                            }<br>
+                            
+                            p<br>
+                            {
+                                color: yellow;
+                            }</li>
+            </ul>
+            <hr>
+            <h1>CSS selectors</h1>
+            <ul>
+                <li>- CSS selectors are used to select the contents you want to style.</li><br>
+                <li><h4>i) Element selector</h4></li>
+                <li> - the element selector selects the html element by name.</li>
+                <li> 
+                    Syntax<br>
+                        element<br>
+                        {
+                            style1;<br>
+                            style2;<br>
+                            ...
+                        }<br>
+                        p<br>
+                        {
+                            text-align : center;<br>
+                            color : blue;<br>
+                        }
+                     </li><br>
+                     <li><h4>ii)Id selector</h4></li>
+                     <li>- it uses id attribute of html element</li>
+                     <li> - to select a selector with specific id (#) is used.</li><br>
+                     <li> 
+                        Syntax<br>
+                            #id<br>
+                            {<br>
+                                style1;
+                                style2;
+                                ...
+                            }<br>
+                            
+                            #warning<br>
+                            {
+                                color : orange;<br>
+                            }
+                        </li><br>
+                        <li><h4>iii)class selector</h4></li>
+                        <li> - the class selector selects html elements 
+                            with specific class attribute.</li>
+                        <li> - it is used with a "period" symbol (. DOT)
+                            followed by class name.</li>
+                        <li>   
+                            Syntax<br>
+                                .class_name<br>
+                                {<br>
+                                    style1;<br>
+                                    style2;<br>
+                                    ...
+                                }</li>
+                        <li><h4>iv) Universal Selector</h4></li>
+                        <li> - The universal selector is used as wildcard selector.</li>
+                        <li> - It selects all elements in page.</li>
+                        <li>*</li>
+                        <li>{<br>
+                            style1;<br>
+                            style2;<br>
+                            ...
+                        }
+                        </li>
+                        <li><h4>v) Group selector</h4></li>
+                        <li>- Group selector is used to select all elements
+                            with same style definition</li>
+                        <li>- commas are used to separate selectors in grouping.</li>
+                        <li>Eg</li>
+                        <li>h2<br>
+                            {<br>
+                                text-align : center;<br>
+                                color : maroon;<br>
+                            }<br>
+                            
+                            h3<br>
+                            {<br>
+                                text-align : center;<br>
+                                color : maroon;<br>
+                            }<br>
+                            
+                            h4<br>
+                            {<br>
+                                text-align : center;<br>
+                                color : maroon;<br>
+                            }<br>
+                        
+                            h2, h3, h4<br>
+                            {<br>
+                                text-align : center;<br>
+                                color : maroon;<br>
+                            }
+                        </li>
+            </ul>
+            <hr>
+            <h1>Colors</h1>
+            <ul>
+                <li> - Colors are specified using predefined color names
+                    or color values</li>
+                    <li><h3>Color values</h3></li>
+                    <li>RGBA	-> Red, Green, Blue, Alpha</li>
+                    <li>HSL		-> Hue, Saturation, Lightness</li>
+                    <li>HSLA	-> Hue, Saturation, Lightness, Alpha</li>
+                    <li>HEX		-> Hexadecimal numbers</li>
+                    <li>Alpha	-> Transperancy<br>
+                        -> 0 -> Transperant<br>
+                        -> 1 -> Not Transperant</li>
+                        <li>&lt;h1 style="color:rgba(255, 0, 0, 1); background-color : orange"&gt; <br>Observe This color&lt;/h1&gt; <br>
+                            &lt;h1 style="color:rgba(255, 0, 0, 1)"&gt; <br>Observe This color&lt;/h1&gt; <br>
+                            &lt;h1 style="color:rgba(255, 0, 0, 0.8)"&gt; <br>Observe This color&lt;/h1&gt; <br>
+                            &lt;h1 style="color:rgba(255, 0, 0, 0.6); background-color: rgba(0,255,0,0.8);"&gt; <br>Observe This color&lt;/h1&gt; <br>
+                            &lt;h1 style="color:rgba(255, 0, 0, 0.4)"&gt; <br>Observe This color&lt;/h1&gt; <br>
+                            &lt;h1 style="color:rgba(255, 0, 0, 0.2)"&gt; <br>Observe This color&lt;/h1&gt; <br>
+                            &lt;h1 style="color:rgba(255, 0, 0, 0)"&gt; <br>Observe This color&lt;/h1&gt; <br>
+                            &lt;h1&gt; <br>Observe This color&lt;/h1&gt; <br>
+                            &lt;h1 style="color:red"&gt; <br>Observe This color&lt;/h1&gt; <br>
+                            &lt;h1 style="color:rgb(255, 0, 0)"&gt; <br>Observe This color&lt;/h1&gt; <br>
+                            &lt;h1 style="color:hsl(0, 100%, 50%)"&gt; <br>Observe This color&lt;/h1&gt; <br>
+                            &lt;h1 style="color: #ff0000;"&gt; <br>Observe This color&lt;/h1&gt; <br>
+                    </li>
+                    <li><h3>CSS Text formatting</h3></li>
+                    <li>color<br>
+                        - color property is used to set color of text.</li>
+                        <li> 
+                            text alignment<br>
+                             - 'text-align' property is used to set horizontal
+                               alignment of text<br>
+                             - values are left, right, center, justify<br>
+                             </li>
+                             <li>Eg</li>
+                             <li>.ctr<br>
+                                {<br>
+                                    text-align: center;<br>
+                                }<br>
+                                .rt<br>
+                                {<br>
+                                    text-align: right;<br>
+                                }<br>
+                                .jst<br>
+                                {<br>
+                                    text-align: justify;<br>
+                                }
+                    </li>
+                    <li><h3>Text Decoration</h3></li>
+                    <li>Text Decoration
+                        text-decoration is used to set or remove text-decoration
+                        eg	underline, overline, line-through</li>
+                        <li>text-decoration : underline<br>
+                            : overline<br>
+                            : line-through<br>
+                            : none</li>
+                            <li><h3>Text shadow</h3></li>
+                            <li> - text-shadow property adds shadow effects to text.</li>
+                            <li> text-shadow : xoffset yoffset blur/height color;</li>
+                            <li>text-shadow : shadow1, shadow2, shadow3,...</li>
+            </ul>
+            <hr>
+            <h1>CSS Gradient backgrounds</h1>
+            <ul>
+                <li>i) Linear gradient<br>
+                    ii)Radial gradient<br>
+                    Note :- minimum 2 color stops required</li>
+                    <li><h3>i) Linear gradient</h3></li>
+                    <li>	background : linear-gradient(direction, color_stop1, color_stop2, color_stop3, ...)<br>
+                        direction	-> to right<br>
+                                    -> to left<br>
+                                    -> to bottom<br>
+                                    -> to top<br>
+                                    -> to right bottom<br>
+                                    -> ...<br>
+                
+                                background: linear-gradient(to right, red,black);<br>
+                                background: linear-gradient(to right, red,pink,white);<br>
+                                background: linear-gradient(to left, red,pink,white);<br>
+                                background: linear-gradient(to top, red,pink,white);<br>
+                                background: linear-gradient(to bottom, red,pink,white);*/<br>
+                                background: linear-gradient(to right, red,orange,yellow,lightgreen,green,darkgreen,black );<br>
+                
+                    background : linear-gradient(90deg, color_stop1, color_stop2, color_stop3,...)<br>
+                               -> 90deg<br>
+                                  180deg<br>
+                                  -90deg</li>
+                                  <li><h3>ii)Radial Gradient</h3></li>
+                                  <li>background : radial-gradient(shape, color_stop1, color_stop2, color_stop3,...)<br>
+                                    shape -> circle or ellipse<br>
+                     
+                     
+                                     /*background: radial-gradient(circle,black, maroon, red, pink, white);<br>
+                                     background: radial-gradient(circle,black,maroon, red, pink, white);*/<br>
+                                     background: radial-gradient(ellipse,black,maroon, red, pink, white);<br>
+                     </li>
+                     <hr>
+                    <h1>Text transformation</h1>
+                     <li> - text-transform property is used to specify
+                        all characters as upper case or lowercase or
+                        capitalize each word.</li>
+                        <li>  text-transform : uppercase;<br>
+                            : lowercase;<br>
+                            : capitalize;<br>
+          
+          
+                  < h1 style="text-transform: capitalize;">I am text observe MyCases</h1><br>
+                  < h1 style="text-transform: lowercase;">I am text observe MyCases</h1><br>
+                  < h1 style="text-transform: uppercase;">I am text observe MyCases</h1></li>
+                  
+                  <li><h3>Text spacing</h3></li>
+                  <li> - text-indent property is used specify indention of first line of text
+                    text-indent : 50px;<br>
+                
+                        <p style="text-indent: 50px;">Erat invidunt aliquyam sea magna sit dolor ut, aliquyam at eos diam diam clita sit at eirmod, lorem elitr sea rebum ut lorem labore sea dolores ut. Stet eirmod voluptua dolore dolor, sit amet nonumy ipsum takimata ipsum sea, sadipscing consetetur accusam dolor kasd, dolores accusam ipsum lorem consetetur voluptua. Dolor gubergren vero ipsum lorem sed aliquyam est et. Tempor stet diam et sed rebum et ut amet labore, ipsum sed consetetur amet eirmod. Dolore kasd dolore et lorem sea. Et accusam et dolore duo clita tempor vero ea, ipsum kasd invidunt vero ea, est kasd sea ut dolor voluptua ea vero dolor tempor. Magna at clita et sit eos, erat accusam dolor sadipscing sit ipsum duo invidunt dolores consetetur, eos magna ut eos lorem stet stet, rebum consetetur gubergren duo dolores stet, lorem sit ipsum sit voluptua et aliquyam, justo eirmod dolor clita dolores diam, kasd et ipsum magna.</p>
+                </li>
+                <li><h3>Letter spacing</h3></li>
+                <li> letter-spacing property is used to specify space between characters
+                    in text</li>
+                <li>
+                    letter-spacing : 3px;<br>
+                                   : 0px;	-> Default<br>
+                                   : -3px;</li>
+                <li>&lt;h1 style="letter-spacing: -3px;"&gt;<br>We are the letters observe our spacing tightly spaced&lt;/h1&gt;<br>
+                    &lt;h1 style="letter-spacing: 0px;"&gt;<br>We are the letters observe our spacing&lt;/h1&gt;<br>
+                    &lt;h1&gt;<br>We are the letters observe our spacing&lt;/h1&gt;<br>
+                    &lt;h1 style="letter-spacing: 3px;"&gt;<br>We are the letters observe our spacing loosely spaced&lt;/h1&gt;<br>
+            </li>
+                <li><h3>Line spacing</h3></li>
+                <li> line-height property is used to specify
+                    vertical spacing between lines</li>
+                <li>
+                    &lt;p&gt;<br>I am line 1&lt;/p&gt;<br>
+                            &lt;p style="line-height: 0.0;"&gt;<br>I am line 2&lt;/p&gt;<br>
+                            &lt;p&gt;<br>I am line 3&lt;/p&gt;<br>
+                            &lt;p&gt;<br>I am line 4&lt;/p&gt;<br>
+                            &lt;br&gt;<br>&lt;br&gt;<br>
+                            &lt;p&gt;<br>I am line 1&lt;/p&gt;<br>
+                            &lt;p style="line-height: 2.0;"&gt;<br>I am line 2&lt;/p&gt;<br>
+                            &lt;p&gt;<br>I am line 3&lt;/p&gt;<br>
+                            &lt;p&gt;<br>I am line 4&lt;/p&gt;<br>
+                            &lt;p style="line-height: 2;"&gt;<br>Accusam voluptua sit ea elitr diam. Ea eirmod sed sit invidunt amet tempor. Dolore sed sed takimata amet lorem voluptua elitr et sed, sit dolor accusam dolor et dolor takimata vero est ea, ut et dolores sed amet et clita eirmod justo sit, stet voluptua dolores nonumy clita et dolores ut diam. At et amet eirmod ipsum et ea, lorem amet accusam sit tempor et ea ut. Magna eos ipsum et dolor et dolores stet sit. Et gubergren justo dolor diam amet elitr tempor voluptua, tempor at takimata aliquyam erat vero consetetur eos clita, nonumy sit est takimata amet ea elitr eos no, et dolor lorem dolores sit vero, sanctus ipsum rebum lorem amet kasd stet magna labore. Dolor duo consetetur sed ut dolor et et. Eos amet sed dolores sed. Tempor no kasd gubergren kasd sit ut et accusam justo. Eos ipsum eos erat gubergren eos no sed. Sea sed elitr elitr takimata accusam eos tempor, tempor erat ipsum no consetetur gubergren. Consetetur nonumy dolor tempor sed accusam invidunt, est justo magna amet rebum clita amet no sed. No magna lorem nonumy kasd et ea. Lorem magna stet duo diam et sadipscing at eos clita. Tempor amet diam diam.&lt;/p&gt;<br>
+                    </li>
+            </ul>
+               <hr>
+               <h1>Borders</h1>
+               <ul>
+                   <li>
+                    border property specifies border for an element<br>
+                    border-style : dotted<br>
+                
+			             : solid<br>
+			              : dashed<br>
+			              : double<br>
+			 
+			             : groove<br>
+			             : ridge<br>
+			             : inset<br>
+			             : outset<br>
+			 
+			             : none<br>
+			              : hidden<br>
+			 
+			              : dashed double solid dotted
+			        -> priority will be clockwise</li>
+                    <li>&lt;div style="border-style : solid double inset dashed;"&gt;<br> Solid Double Inset Dashed border&lt;/div&gt;<br>&lt;br&gt;<br>
+                        &lt;div style="border-style : solid double inset;"&gt;<br> Solid Double Inset border&lt;/div&gt;<br>&lt;br&gt;<br>
+                        &lt;div style="border-style : dotted dashed;"&gt;<br> Dotted and Dashed border&lt;/div&gt;<br>&lt;br&gt;<br>
+                        &lt;div style="border-style : hidden;"&gt;<br> Hidden border&lt;/div&gt;<br>&lt;br&gt;<br>
+                        &lt;div style="border-style : none;"&gt;<br> None border&lt;/div&gt;<br>&lt;br&gt;<br>
+                        &lt;div style="border-style : outset;"&gt;<br> Outset border&lt;/div&gt;<br>&lt;br&gt;<br>
+                        &lt;div style="border-style : inset;"&gt;<br> Inset border&lt;/div&gt;<br>&lt;br&gt;<br>
+                        &lt;div style="border-style : ridge;"&gt;<br> Ridge border&lt;/div&gt;<br>&lt;br&gt;<br>
+                        &lt;div style="border-style : groove;"&gt;<br> Groove border&lt;/div&gt;<br>&lt;br&gt;<br>
+                        &lt;div style="border-style : double;"&gt;<br> Double border&lt;/div&gt;<br>&lt;br&gt;<br>
+                        &lt;div style="border-style : dashed;"&gt;<br> Dashed Border&lt;/div&gt;<br>&lt;br&gt;<br>
+                        &lt;div style="border-style : dotted;"&gt;<br> Dotted border&lt;/div&gt;<br>&lt;br&gt;<br>
+                        &lt;div style="border-style : solid;"&gt;<br>Solid border&lt;/div&gt;<br>&lt;br&gt;<br>
+                </li>
+               </ul>
+            <div class="footer">
+                <span>@ Samriti</span>
+            </div>
+    </body>
+</html>

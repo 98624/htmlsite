@@ -8,10 +8,21 @@
             <div style="background-color:black; color:white; width:100%; height:15%; margin-top: -13px;">
                 <div class="name"><span style="color: cyan; font-size:40px " >S</span>AMRITI </div>
             <ul class="header">
-                <li><a href="">Home</a></li>
-                <li><a href="https://98624.github.io/portfolio/">About</a></li>
-                <li>Courses</li>
-                <li><a href="#contact">Contact</a></li>
+                <li><button class="dropbtn"><a href="#">Home</a></button></li>
+                <li><button class="dropbtn"><a href="https://98624.github.io/portfolio/">About</a></button></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Courses</button>
+                        <div class="dropdown-content">
+                          <a href="html1.html">HTML</a>
+                          <a href="cs.html">CSS</a>
+                          <a href="boot.html">Bootstrap</a>
+                          <a href="js.html">Javascript</a>
+                        </div>
+                      </div>
+                </li>
+                
+                <li><button class="dropbtn"><a href="#contact">Contact</a></button></li>
             </ul> 
             <div class="web">
                 <h1>Web Development</h1>
@@ -21,10 +32,10 @@
            
         </div>
             <div class="topics">
-            <div class="html"><a href="html1.html">HTML</a></div>
-            <div class="css"><a href="cs.html">CSS</a></div>
-            <div class="boot"><a href="Bootstrap.html">Bootstrap</a></div>
-            <div class="js"><a href="js.html">JavaScript</a></div>
+            <div class="html" id="html"><a href="html1.html">HTML</a></div>
+            <div class="css" id="css"><a href="cs.html">CSS</a></div>
+            <div class="boot" id="boot"><a href="Bootstrap.html">Bootstrap</a></div>
+            <div class="js" id="js"><a href="js.html">JavaScript</a></div>
             </div>
 
          <div id="contact">
