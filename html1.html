@@ -2,61 +2,138 @@
     <head>
         <title>HTML</title>
         <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>   
+    
     </head>
-    <body style="background: linear-gradient(to left,rgb(170, 115, 163),rgb(80, 106, 121));">
-        <div style="background-color:black; color:white; width:100%; height:10%; margin-top: -13px;">
-            <ul class="header">
-                <li class="list"><a href="index.html">Home</a></li>
-                <li class="list"><a href="cs.html">CSS</a></li>
-                <li class="list"> <a href="boot.html">Bootstrap</a>
-                   </li>
-                <li class="list"> <a href="js.html">Javascript</a></li>
-            </ul> 
-            </div>
-        <div>
-            <ul>
-                <li><h3>What is web?</h3></li>
-                <li>- it is Collection of e-resources connected electronically</li>
-                <li>- Father of web is Tim Berners Lee.</li>
-            </ul><hr>
-            <ul>
-                <li><h3>What is W3C?</h3></li>
-                <li>- World wide web consortium</li>
-                <li>- It is founded by Tim Berners Lee.</li>
-                <li>- It is organization to maintain web standards.</li>
-                <li> - 1st October 1994 at MIT LCS (Massachusetts Institute</li>
-                <li>of Technology Laboraory of Compute Science)</li>
+        <body style="background: linear-gradient(to left,rgb(170, 115, 163),rgb(80, 106, 121));">
+            <div style="background-color:black; color:white; width:100%; height:10%; margin-top: -13px;">
+                <ul class="header">
+                    <div class="container m-2 ">
+                        <img src="html.png" style="width: 60px; height: 40px; float:left">
+                    </div>
+                    <li class="list"><a href="index.html">Home</a></li>
+                    <li class="list"><a href="cs.html">CSS</a></li>
+                    <li class="list"> <a href="boot.html">Bootstrap</a>
+                    </li>
+                    <li class="list"> <a href="js.html">Javascript</a></li>
+                </ul> 
+                </div>
+            <div>
                 
-            </ul><hr>
-                     <ul> 
-                      <li><h3>What is InterNet?</h3></li>
-                      <li> - International Network.<br></li>
-                        <li>- Father of Intenet is Dr Vint Cerf</li>
-                        <p style="border:1px solid black; position: fixed;bottom: 2px   ;
-                        background-color:black;color:white; width:30px; height:20px; float: right; margin-left: 90%;"><a href="html1.html">Top</a></p>
-                    </ul><hr>
-                     <h1>Introduction</h1>
+            <div class="row lheight ml-0" >
+                <ul class="nav nav-pills flex-column col-2 bg-dark">
+                    <li class="nav-item">
+                        <a href="#Home" class="nav-link" data-toggle = "pill">HTML Home</a>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a href="#intro" class="nav-link" data-toggle = "pill">Introduction</a>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a href="#feature" class="nav-link" data-toggle = "pill">Features and Disadvantage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#history" class="nav-link" data-toggle = "pill">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tag" class="nav-link" data-toggle = "pill">Tag</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Structure" class="nav-link" data-toggle = "pill">Structure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#working" class="nav-link" data-toggle = "pill">Working</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section" class="nav-link" data-toggle = "pill">Section</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#headings" class="nav-link" data-toggle = "pill">Headings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#paragraph" class="nav-link" data-toggle = "pill">Paragraph</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#form" class="nav-link" data-toggle = "pill">Forms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#text" class="nav-link" data-toggle = "pill">Textarea</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#drop" class="nav-link" data-toggle = "pill">Dropdown</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#radio" class="nav-link" data-toggle = "pill">Radio control</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#checkbox" class="nav-link" data-toggle = "pill">Checkbox</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#http" class="nav-link" data-toggle = "pill">HTTP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#nested" class="nav-link" data-toggle = "pill">Nested List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#definition" class="nav-link" data-toggle = "pill">Definition List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#table" class="nav-link" data-toggle = "pill">Table Tag</a>
+                    </li>
+                
+
+            </ul>
+        
+        
+            <div class="tab-content col white-color">
+                <div class="tab-pane fade show active" id="Home"><ul>
+                  
+                    <li><h3>What is web?</h3><br>
+                        - it is Collection of e-resources connected electronically<br>
+                        - Father of web is Tim Berners Lee.</li>
+                        <img src="html.png" style="float: right; margin-right:10%; margin-top: -18%; height: 15%;">
+                </ul><hr>
+                <ul>
+                    <li><h3>What is W3C?</h3>
+                        - World wide web consortium<br>
+                        - It is founded by Tim Berners Lee.<br>
+                        - It is organization to maintain web standards.<br>
+                        - 1st October 1994 at MIT LCS (Massachusetts Institute of Technology Laboraory of Compute Science)</li>
+                    
+                </ul><hr>
+                        <ul> 
+                        <li><h3>What is InterNet?</h3><br>
+                         - International Network.<br>
+                            - Father of Intenet is Dr Vint Cerf</li>
+                        </ul>
+                    </div>
+                <div class="tab-pane fade show" id="intro">
+                    <h1>Introduction</h1>
                     <ul>
-                        <li><h4>Introduction to HTML</h4></li>
-                       <li> - It standards for Hyper Text Markup Language</li>
-                           <li> - It is a standard markup language used to create
-                              web pages.</li>
-                    </ul><hr>
-                    <h1>Fetures</h1>
+                        <li><h4>Introduction to HTML</h4><br>
+                     - It standards for Hyper Text Markup Language<br>
+                       - It is a standard markup language used to create
+                            web pages.</li></div>
+                <div class="tab-pane fade show" id="feature"> <h1>Fetures</h1>
                     <ul>
-                        <li><h4>Fetures of HTML</h4></li>
-                        <li>- HTML is highly flexible and simple.</li>
-                        <li>- HTML is supported on almost every web browser.</li>
-                        <li>- HTML is user friendly.</li>
+                        <li><h4>Features of HTML</h4><br>
+                        - HTML is highly flexible and simple.<br>
+                        - HTML is supported on almost every web browser.<br>
+                        - HTML is user friendly.</li>
                     </ul><hr>
                     <h1>Disadvantages</h1>
                     <ul>
-                        <li><h4>Disadvantages of HTML</h4></li>
-                        <li> It can create only static plain pages.</li>
-                        <li>- We need to write a lot of code for making simple page.</li>
-                        <li>- Security fetures of HTML are not good.</li>
-                    </ul><hr>
-                    <h1>History </h1>
+                        <li><h4>Disadvantages of HTML</h4><br>
+                         It can create only static plain pages.<br>
+                        - We need to write a lot of code for making simple page.<br>
+                        - Security fetures of HTML are not good.</li>
+                    </ul></div>
+                <div class="tab-pane fade show" id="history"> <h1>History </h1>
                     <ul>
                         <li> <h4 id="his"> History of HTML</h4></li>
                         <li>- 1989		GML		(Generalised Markup Language)</li>
@@ -64,630 +141,965 @@
                         <li>- 1994		HTML</li>
                         <li>- 2008		HTML 5</li>
                         <li> - 2016		HTML 5.1</li>
-                       
-                    </ul><hr>
-                    <h1>Tag</h1>
+                    
+                    </ul></div>
+                <div class="tab-pane fade show" id="tag"> <h1>Tag</h1>
                     <ul>
-                        <li> <h4>What is Tag ?</h4></li>
-                        <li>- Text palced between '<' and '>' is called as tag</li>
-                        <li> Eg < html></html></li>
-                        <li> Tags are classified into two types</li>
-                        <li> 1. Paired tags</li>
-                        <li>2. Non-Paired tags</li><hr>
-                        <li> 1. Paired tags</li>
-                        <li>- The tags that have both opening and closing
+                        <li> <h4>What is Tag ?</h4><br>
+                        - Text palced between '<' and '>' is called as tag</li>
+
+                    
+                    <li >< html></li>
+                    
+                        <li> Tags are classified into two types<br>
+                         1. Paired tags<br>
+                         2. Non-Paired tags</li><hr>
+                       <li> 1. Paired tags<br>
+                       - The tags that have both opening and closing
                             tags are called as paried tags.</li>
-                        <li>  Eg</li>
-                        <li>< html >
+
+                            <ul>
+                                <li>
+                                <button class="nav-link text-light bg-dark" id="example" onclick="displayExampleText()">For Example</button>
+                            </li>
+                            </ul>
+                            <div class="tab-pane fade show" id="ex1">
+                    
+                        <div id="exampleTxt" style="display: none;" >
+                            <li>< html >
+                                ...
+                                ...
+                                
+                                ...
+                            < /html></li>
+                            <li>< body>
                             ...
                             ...
                             ...
-                        < /html></li>
-                        <li>< body>
-                            ...
-                            ...
-                            ...
-                        < /body></li>
+                            < /body></li>
+                        </div>
+                        </li> 
+                    </div>
                         <li>  Note:- The closing tags start with '/'</li>
                     </ul>
                     <ul>
-                        <li>2. Non-Paired</li>
-                        <li>- The tags that have only opening tag but no closing
-                            tag are called as non-paired tags.</li>
-                        <li>- These tags are also called as</li>
-                        <li>i) Self closed tags</li>
-                        <li>ii) Forcefully closed tags</li>
-                        <li>iii) Empty tags</li>
-                        <li>iv) Singular tags.</li>
+                        <li>2. Non-Paired<br>
+                        - The tags that have only opening tag but no closing
+                            tag are called as non-paired tags.<br>
+                        - These tags are also called as<br>
+                        i) Self closed tags<br>
+                        ii) Forcefully closed tags<br>
+                       iii) Empty tags<br>
+                        iv) Singular tags.</li>
                     </ul>
                     <ul>
-                        <li>Eg:	< br>	or 	< br/>	Break tag(line break)</li>
-                        <li>< hr>	or 	< hr/>	Hrizontal rule (h. line)</li>
-                        <li>< img>	or	< img/>	image tag</li>
-                    </ul><hr>
+                    <li>
+                        <button class="nav-link text-light bg-dark" id="example1" onclick="Example1()">For Example</button>
+                    </li>
+                    <div class="tab-pane fade show" id="ex2">
+                        <div id="exam1" style="display: none;" >
+                        <li>Eg:	< br>	or 	< br/>	Break tag(line break)<br>
+                        < hr>	or 	< hr/>	Hrizontal rule (h. line)<br>
+                        < img>	or	< img/>	image tag</li>
+                    </div>
+                    </div>
+                    </ul>
+                </div>
+                <div class="tab-pane fade show" id="Structure">
                     <h3>Structure </h3>
                     <ul>
-                        <li><h4>Structure of HTML</h4></li>
-                        <li>< html ></li>
-                        <li> < head>></li>
-                        <li> < title>< /title></li>
-                        <li>< /head></li>
-                        <li>< body>< /body></li>
-                        <li> < /html></li>
+                    <li>An HTML Document is mainly divided into two parts: <br>
+                        HEAD: This contains the information about the HTML document. For Example, Title of the page, version of HTML, Meta Data etc.<br>
+                        BODY: This contains everything you want to display on the Web Page.</li>
+                        <ul>
+                            <li>
+                                <button class="nav-link text-light bg-dark" id="example2" onclick="Example2()">For Example</button>
+                            </li>
+                            <div class="tab-pane fade show" id="ex3">
+                                <div id="exam2" style="display: none;" >
+                        <li>< html ><br>
+                         < head>><br>
+                         < title>< /title><br>
+                         < /head><br>
+                         < body><br>
+                            .....<br>
+                            < /body><br>
+                         < /html></li>
+                        </div>
+                        </div>
                     </ul>
-                    <hr>
+                </div>
+                <div class="tab-pane fade show" id="working">
                     <h1>Working</h1>
-                    <ul>
-                        <li><h4>Working with HTML</h4></li>
-                        <li>- Open any text editor for eg notepad, notepad++, sublime text, etc</li>
-                        <li> - Save this file with any name and extension '.html' or '.html</li>
-                        <li> Eg 'index.html'</li>
-                        <li> - run above file in any web browser eg. MS Internet explorer, MS edge,
-                            google chrome, MFF, Safari, Opera, UCB, etc</li>
-                        
-                    </ul>
- 	                <ul>
-                         <li>< html></li>
-                         <li>< head></li>
-                         <li>< title>My first web page < /title></li>
-                         <li> < /head></li>
-                         <li>< body</li>
-                         <li>Hello world</li>
-                         <li> < h1>Welcome to Fist HTML session < /h1></li>
-                         <li>   < /body></li>
-                     </ul>
-                     <ul>
-                        <li><h3>Sections in html<br>
-                            1. Head section<br>
-                            2. Body section<br>
-                        
-                        </h3></li>
-                        <li>&lt;!doctype html&gt;<br>
-                            - is used to tell web browser that 
-                              &lt; &gt;<br> are tags
-                              
-                           1. Head
-                            - This section contains root element as &lt;head&gt;<br> tag
-                            - It is a a pired tag
-                            - This tag contain following tags
+                        <ul>
+                            <li><h4>Working with HTML</h4><br>
+                            - Open any text editor for eg notepad, notepad++, sublime text, etc<br>
+                             - Save this file with any name and extension '.html' or '.html<br>
+                             Eg 'index.html'<br>
+                            - run above file in any web browser eg. MS Internet explorer, MS edge,
+                                google chrome, MFF, Safari, Opera, UCB, etc</li>
                             
-                           i) &lt;title&gt;<br>		Document title
-                           ii)&lt;link/&gt;<br>		Link to external document
-                           iii)&lt;meta/&gt;<br>		Meta information
-                           iv)&lt;style&gt;<br>		Used for styling
-                           v)&lt;script&gt;<br>		Used to provide script
-                           
-                           ii) &lt;link/&gt;<br>	:- 
-                           </li>
-                           <li>Attributes	href, rel, type</li>
-                           <li>Eg Displaing favicon</li>
-                           <li>favicon - it is a graphical image associcated
-                            with title of web page</li>
-                           <li>its size should be 16 x 16 px or 32 x 32 px</li>
-                           <li>Paths</li>
-                           <li>i) Relative	path</li>
-                           <li>ii)Absolute	path</li>
-                           <li>iii)complete path</li>
-                           <li>iv)full path</li>
-                     </ul>
-                     <ul>
-                         <li>
-                            &lt;!doctype html&gt; <br>
-                        &lt;html&gt; <br>
-                            &lt;head&gt; <br>
-                                &lt;title&gt; <br>Favicon Eg&lt;/title&gt; <br>
-                                &lt;!--&lt;link href = "Desert.jpg" type = "image/ico" rel = "icon"&gt; <br>--&gt; <br>
-                                &lt;!--&lt;link href = "https://cdn.pixabay.com/photo/2019/12/05/19/28/clip-art-4675943_1280.png" type = "image/ico" rel = "icon"&gt; <br>--&gt; <br>
-                                
-                            &lt;/head&gt; <br>
-                            
-                            &lt;body&gt; <br>
-                                &lt;h1&gt; <br>Welcome to Favicons&lt;/h1&gt; <br>
-                            &lt;/body&gt; <br>
-                        &lt;/html&gt; <br>
-                                   
-                        </li>
-                     </ul>
-        </div>
-         <hr>
-        <h1>Headings</h1>
-        <ul>
-            <li><h3>HTML Headings:- </h3></li>
-            <li> - in html there are six heading tags.</li>
-            <li> - All heading tags are paired tags.</li><br>
-            <li><h4>Attributes	Parameters</h4></li>
-            <li>align		left, center, right</li>
-            <br>
-            <br>
-            <li>&lt;!doctype html&gt; <br>
+                        </ul>
+                        <ul>
+                            <li>
+                                <button class="nav-link text-light bg-dark" id="example3" onclick="Example3()">For Example</button>
+                            </li>
+                            <div class="tab-pane fade show" id="ex4">
+                                <div id="exam3" style="display: none;" >
+                            <li>< html><br>
+                            < head><br>
+                           < title>My first web page < /title><br>
+                             < /head><br>
+                            <li>< body</li>
+                            <li>Hello world</li>
+                            <li> < h1>Welcome to Fist HTML session < /h1></li>
+                            <li>   < /body></li>
+                            </div>
+                            </div>
+                        </ul>
+                </div>
+                <div class="tab-pane fade show" id="section">
+                    <h1>Sections in html</h1><br>
+                    1. Head section<br>
+                    2. Body section<br>
+                
+                </h3></li>
+                <li>&lt;!doctype html&gt;<br>
+                    - is used to tell web browser that 
+                    &lt; &gt;<br> are tags
+                    
+                1. Head
+                    - This section contains root element as &lt;head&gt;<br> tag
+                    - It is a a pired tag
+                    - This tag contain following tags
+                    
+                i) &lt;title&gt;<br>		Document title
+                ii)&lt;link/&gt;<br>		Link to external document
+                iii)&lt;meta/&gt;<br>		Meta information
+                iv)&lt;style&gt;<br>		Used for styling
+                v)&lt;script&gt;<br>		Used to provide script
+                
+                ii) &lt;link/&gt;<br>	:- 
+                
+                <li>Attributes	href, rel, type<br>
+                Eg Displaing favicon<br>
+                favicon - it is a graphical image associcated
+                    with title of web page<br>
+                its size should be 16 x 16 px or 32 x 32 px
+                Paths<br>
+                i) Relative	path<br>
+                ii)Absolute	path<br>
+                iii)complete path<br>
+                iv)full path</li>
+            </ul>
+            <ul>
+                <li>
+                    <button class="nav-link text-light bg-dark" id="example4" onclick="Example4()">For Example</button>
+                </li>
+                <div class="tab-pane fade show" id="ex5">
+                    <div id="exam4" style="display: none;">
+                <li>
+                    &lt;!doctype html&gt; <br>
                 &lt;html&gt; <br>
                     &lt;head&gt; <br>
-                        &lt;title&gt; <br>Heading tag eg&lt;/title&gt; <br>
-                    &lt;/head&gt; <br>
-                    &lt;body&gt; <br>
-                        &lt;h1&gt; <br>This is Heading 1&lt;/h1&gt; <br>
-                        &lt;h2 align = "center"&gt; <br>This is Heading 2&lt;/h2&gt; <br>
-                        &lt;h3 align = "right"&gt; <br>This is Heading 3&lt;/h3&gt; <br>
-                        &lt;h4&gt; <br>This is Heading 4&lt;/h4&gt; <br>
-                        &lt;h5 align = "center"&gt; <br>This is Heading 5&lt;/h5&gt; <br>
-                        &lt;h6 align = "right"&gt; <br>This is Heading 6&lt;/h6&gt; <br>
-                        &lt;h7&gt; <br>This is Heading 7&lt;/h7&gt; <br>
-                        &lt;h8 align = "center"&gt; <br>This is Heading 8&lt;/h8&gt; <br>
-                        &lt;h9&gt; <br>This is Heading 9&lt;/h9&gt; <br>
+                        &lt;title&gt; <br>Favicon Eg&lt;/title&gt; <br>
+                        &lt;!--&lt;link href = "Desert.jpg" type = "image/ico" rel = "icon"&gt; <br>--&gt; <br>
+                        &lt;!--&lt;link href = "https://cdn.pixabay.com/photo/2019/12/05/19/28/clip-art-4675943_1280.png" type = "image/ico" rel = "icon"&gt; <br>--&gt; <br>
                         
+                    &lt;/head&gt; <br>
+                    
+                    &lt;body&gt; <br>
+                        &lt;h1&gt; <br>Welcome to Favicons&lt;/h1&gt; <br>
                     &lt;/body&gt; <br>
-                &lt;/html&gt; <br> 
+                &lt;/html&gt; <br>
+                        
                 </li>
-        </ul>
-        <hr>
-        <ul>
-            <li><h1 class="head">Paragraph</h1></li>
-            <li><h4>HTML Paragraph(< p> tag)</h4></li>
-            <li> - it is used to divide text into different paragraphs</li>
-            <li>- it is a paired tag</li>
-            <li><h4>Attributes&nbsp;&nbsp;	Parameters</h4></li>
-            <li>align	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	left, right, center, justify
-            </li>
+                </div>
+                </div>
+            </ul>
+    </div>
+                
+                <div class="tab-pane fade show" id="headings">
+                    <h1>Headings</h1>
+            <ul>
+                <li><h3>HTML Headings:- </h3><br>
+                 - in html there are six heading tags.<br>
+                 - All heading tags are paired tags.</li><br>
+                <li>
+                    <button class="nav-link text-light bg-dark" id="example5" onclick="Example5()">For Example</button>
+                </li>
+                <div class="tab-pane fade show" id="ex6">
+                    <div id="exam5" style="display: none;">
+                <li>&lt;!doctype html&gt; <br>
+                    &lt;html&gt; <br>
+                        &lt;head&gt; <br>
+                            &lt;title&gt; <br>Heading tag eg&lt;/title&gt; <br>
+                        &lt;/head&gt; <br>
+                        &lt;body&gt; <br>
+                            &lt;h1&gt; <br>This is Heading 1&lt;/h1&gt; <br>
+                            &lt;h2 align = "center"&gt; <br>This is Heading 2&lt;/h2&gt; <br>
+                            &lt;h3 align = "right"&gt; <br>This is Heading 3&lt;/h3&gt; <br>
+                            &lt;h4&gt; <br>This is Heading 4&lt;/h4&gt; <br>
+                            &lt;h5 align = "center"&gt; <br>This is Heading 5&lt;/h5&gt; <br>
+                            &lt;h6 align = "right"&gt; <br>This is Heading 6&lt;/h6&gt; <br>
+                            &lt;h7&gt; <br>This is Heading 7&lt;/h7&gt; <br>
+                            &lt;h8 align = "center"&gt; <br>This is Heading 8&lt;/h8&gt; <br>
+                            &lt;h9&gt; <br>This is Heading 9&lt;/h9&gt; <br>
+                            
+                        &lt;/body&gt; <br>
+                    &lt;/html&gt; <br> 
+                    </li>
+                    </div>
+                    </div>
+            </ul>
+                </div>
+                <div class="tab-pane fade show" id="paragraph">
+                    <h1>Paragraph</h1>
+                    <ul>
+                        <li> - it is used to divide text into different paragraphs<br>
+                        - it is a paired tag</li>
+                       
+                        <li>
+                            <button class="nav-link text-light bg-dark" id="example6" onclick="Example6()">For Example</button>
+                        </li>
+                        <div class="tab-pane fade show" id="ex7">
+                            <div id="exam6" style="display: none;">
+                        <li>&lt;!doctype html&gt; <br>
+                            &lt;html&gt; <br>
+                                &lt;Head&gt; <br>&lt;/head&gt; <br>
+                                &lt;body&gt; <br>
+                                    &lt;p&gt; <br>Pranvi Computech, &lt;br/&gt; <br>
+                                        2408, Hundiwala lane, &lt;br/&gt; <br>
+                                        Dist &nbsp;&nbsp;&nbsp;&nbsp;           Nashik,&lt;br/&gt; <br>
+                                        Maharashtra
+                                    &lt;/p&gt; <br>
+                            
+                                    &lt;p&gt; <br>I am first paragraph&lt;/p&gt; <br>
+                                    &lt;p&gt; <br>I am second paragraph&lt;/P&gt; <br>
+                                    &lt;p&gt; <br> The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+                            
+                                        Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+                            
+                                        HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as &lt;img /&gt; <br> and directly introduce content into the page. Other tags such as  surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+                            
+                                        HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[2] &lt;/p&gt; <br><br>
+                                        
+                                    &lt;p align = "center"&gt; <br> The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+                            
+                                        Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+                            
+                                        HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as &lt;img /&gt; <br> and directly introduce content into the page. Other tags such as  surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+                            
+                                        HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[2] &lt;/p&gt; <br>
+                                &lt;/body&gt; <br>
+                            &lt;/html&gt; <br> 
+                            </li>
+                            </div>
+                            </div>
+                    </ul>
+                </div>
+                <div class="tab-pane fade show" id="form">
+                    <h1>Forms</h1>
+                    <li>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</li>
+                    <ul>
+                        <li><h4>Form Attributes </h4><br>
+
+                        method<br>
+                        action<br>
+                        target<br>
+                        encrypt<br>
+                        < input/> tag</li>
+                        <li>Attributes &nbsp; &nbsp; &nbsp; &nbsp;	Parameters<br>
+                            name	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;	any name<br>
+                            value	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; any value<br>
+                            size	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	pix<br>
+                            maxlength &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;number<br>
+                            rows	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	number<br>
+                            cols	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	number<br>
+                            readonly &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; true / false<br>
+                            disabled  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	disabled<br>
+                            checked	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;checked<br>
+                            multiple	 &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;true / false<br>
+                            </li>
+                    
+                    </ul>
+                </div>
+                <div class="tab-pane fade show" id="text">
+                    <h1>Textarea</h1>
+            <ul>
+                <li>The < textarea> tag defines a multi-line text input control. </li>
+                <li>
+                    <button class="nav-link text-light bg-dark" id="example7" onclick="Example7()">For Example</button>
+                </li>
+                <div class="tab-pane fade show" id="ex8">
+                    <div id="exam7" style="display: none;">
             <li>&lt;!doctype html&gt; <br>
                 &lt;html&gt; <br>
-                    &lt;Head&gt; <br>&lt;/head&gt; <br>
+                    &lt;head&gt; <br>&lt;/head&gt; <br>
                     &lt;body&gt; <br>
-                        &lt;p&gt; <br>Pranvi Computech, &lt;br/&gt; <br>
-                            2408, Hundiwala lane, &lt;br/&gt; <br>
-                            Dist &nbsp;&nbsp;&nbsp;&nbsp;           Nashik,&lt;br/&gt; <br>
-                            Maharashtra
-                        &lt;/p&gt; <br>
-                
-                        &lt;p&gt; <br>I am first paragraph&lt;/p&gt; <br>
-                        &lt;p&gt; <br>I am second paragraph&lt;/P&gt; <br>
-                        &lt;p&gt; <br> The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
-                
-                            Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
-                
-                            HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as &lt;img /&gt; <br> and directly introduce content into the page. Other tags such as  surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
-                
-                            HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[2] &lt;/p&gt; <br><br>
-                            
-                        &lt;p align = "center"&gt; <br> The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
-                
-                            Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
-                
-                            HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as &lt;img /&gt; <br> and directly introduce content into the page. Other tags such as  surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
-                
-                            HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[2] &lt;/p&gt; <br>
+                        &lt;textarea rows = 5 cols = 45 maxlength = 6&gt; <br>&lt;/textarea&gt; <br>
+                    
                     &lt;/body&gt; <br>
                 &lt;/html&gt; <br> 
                 </li>
-        </ul>
-        <hr>
-        <h1>Forms</h1>
-        <ul>
-            <li><h4>Form Attributes </h4></li>
-            <li>method</li>
-            <li>action</li>
-            <li>target</li>
-            <li>encrypt</li>
-            <li>< input/> tag</li>
-            <li>Attributes &nbsp; &nbsp; &nbsp; &nbsp;	Parameters<br>
-                name	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;	any name<br>
-                value	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; any value<br>
-                size	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	pix<br>
-                maxlength &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;number<br>
-                rows	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	number<br>
-                cols	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	number<br>
-                readonly &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; true / false<br>
-                disabled  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	disabled<br>
-                checked	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;checked<br>
-                multiple	 &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;true / false<br>
+                </div>
+                </div>
+            </ul>
+                </div>
+                <div class="tab-pane fade show" id="drop">
+                    <h1>Dropdown list</h1>
+            <ul>
+                <li><h4>HTML dropdown list(< select> tag)</h4><br>
+               - < select> tag is used to create dropdown list<br>
+                - < option> tag inside select element define the
+                    available options in the list.<br>
+                - < select> is a paired tag<br>
+               - < option> is a paired tag<br>
+               <li><h4>< optgroup> tag</h4></li>
+                - it is used to group logically related options in the dropdown list</li>
+               - For long list options group of related options are easier for user to handle</li><br><br>
+                <li>
+                    <button class="nav-link text-light bg-dark" id="example8" onclick="Example8()">For Example</button>
                 </li>
+                <div class="tab-pane fade show" id="ex9">
+                    <div id="exam8" style="display: none;">
+                <li>&lt; select multiple = multiple size = 5 placeholder = "Subjects"&gt; <br> 
+                    &lt; optgroup label = "Languages"&gt; <br> 
+                        &lt; option value = "hn" label = "Hindi_Language"&gt; <br> Hindi &lt; /option&gt; <br> 
+                        &lt; option&gt; <br> Punjabi &lt; /option&gt; <br> 
+                        &lt; option&gt; <br> Hariyavi &lt; /option&gt; <br> 
+                        &lt; option selected = selected&gt; <br> English &lt; /option&gt; <br> 
+                    &lt; /optgroup&gt; <br> 
+                    &lt; optgroup label = Maths&gt; <br>  
+                        &lt; option&gt; <br> Algebra &lt; /option&gt; <br> 
+                        &lt; option&gt; <br> Geometry &lt; /option&gt; <br> 
+                    &lt; /optgroup&gt; <br> 
+                    &lt; optgroup label = "Science"&gt; <br> 
+                        &lt; option&gt; <br> Physics &lt; /option&gt; <br> 
+                        &lt; option&gt; <br> Chemistry &lt; /option&gt; <br> 
+                        &lt; option disabled = disabled&gt; <br> Biology &lt; /option&gt; <br> 
+                    &lt; /optgroup&gt; <br> 
+                    
+                &lt; /select&gt; <br>  
+        </li>
+        </div>
+        </div>
+            </ul>
+                </div>
+                <div class="tab-pane fade show" id="radio">
+                    <h1>Radio control</h1>  
+                    <ul>
+                    <li> - Radio buttons are used when out of many optionas just one option required to be selected.<br>
+                     - these are created using HTML input tag type = "radio"</li><br><br>
+                    <li>
+                        <button class="nav-link text-light bg-dark" id="example9" onclick="Example9()">For Example</button>
+                    </li>
+                    <div class="tab-pane fade show" id="ex10">
+                        <div id="exam9" style="display: none;">
+                    <li>	&lt;input type = "radio" name = "opt"&gt; <br> True
+                    &lt;input type = "radio" name = "opt"&gt; <br> False
+                    &lt;input type = "radio" name = "opt" checked = checked&gt; <br> All Above
+                    &lt;input type = "radio" name = "opt"&gt; <br> None Above
+                
+                &lt;h2&gt; <br>Gender&lt;/h2&gt; <br>
+                    &lt;input type = "radio" name  = "gender"&gt; <br> Male		
+                    &lt;input type = "radio" name  = "gender"&gt; <br> Female 
+            </li>
+            </div>
+            </div>
+                    </ul>
+                </div>
+                <div class="tab-pane fade show" id="checkbox">
+                    <h1>Checkbox</h1>
+                    <ul>
+                        <li>- Checkboxes are used when more than one options are required to be selected<br>
+                         - these are created using HTML input tag type = "checkbox"</li><br>
+                        <br>
+                        <li>
+                            <button class="nav-link text-light bg-dark" id="example10" onclick="Example10()">For Example</button>
+                        </li>
+                        <div class="tab-pane fade show" id="ex11">
+                            <div id="exam10" style="display: none;">
+                        <li>&lt;h1&gt; <br>Select your hobby / s &lt;/h1&gt; <br>
+                        &lt;input type = "checkbox" name = "chess"&gt; <br>Chess
+                        &lt;input type = "checkbox" name = "songs"&gt; <br>Songs
+                        &lt;input type = "checkbox" name = "reading"&gt; <br>Reading
+                        &lt;input type = "checkbox" name = "movativatoin"&gt; <br>Motivation
+                        &lt;input type = "checkbox" name = "travelling"&gt; <br>Travelling
+                        &lt;input type = "checkbox" name = "dancing"&gt; <br>Dancing
+                        &lt;input type = "checkbox" name = "cooking"&gt; <br>Cooking
+                        &lt;input type = "checkbox" name = "casting"&gt; <br>Casting
+                        &lt;input type = "checkbox" name = "Cricket"&gt; <br>Cricket
+                        &lt;input type = "checkbox" name = "crafting"&gt; <br>Crafting
+                        &lt;input type = "checkbox" name = "videoseries"&gt; <br>Videoseries 
+                </li>
+                </div>
+                </div>
+                    </ul>
+                </div>
+                <div class="tab-pane fade show" id="http">
+                    <h1>HTTP</h1>
+                    <ul><li>- Hyper Text Transfer Protocol<br>
+                    - Hyper Text Transfer Protocol<br>
+                   - it is used to enable / establish communication between client and server.<br>
+                   - HTTP works as request-response protocol between server and client.<br>
+                   - a web browser is client<br>
+                    - the computer who hosts the website is server</li>
+                   <li><h4>HTTP request methods</h4></li>
+                    - there are various methods of HTTP requests Eg	GET, POST, PUT, UPDATE, DELETE, CONNETCT,..etc</li>
+                   - of which two methods are commonly used for request-response
+                    between client and server<br>
+                    i) GET<br>
+                    ii)POST</li>
+                    <li><h3>Action attribute</h3></li>
+                    <li> - this attribute is used to specify url of the server page to which we want to send our form data.</li>
+                    <li><h3>i) GET methods</h3></li>
+                    <li>- In this method there is no security for data<br>
+                    - This method can send only limited data (2MB)<br>
+                    - It can carry raw data from client to server</li>
+                    <li>
+                        <button class="nav-link text-light bg-dark" id="example11" onclick="Example11()">For Example</button>
+                    </li>
+                    <div class="tab-pane fade show" id="ex12">
+                        <div id="exam11" style="display: none;">
+                    <li>&lt; form method = "GET" action = "https://www.google.com" name = "my_form"&gt; <br> 
+                        &lt; label&gt; <br> Username :- &lt; /label&gt; <br>  &nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt; input type = "text" name = "uname" placeholder = "Enter Username"&gt; <br> 
+                        &lt; br&gt; <br> &lt; br&gt; <br> 
+                        &lt; label&gt; <br> Password:- &lt; /label&gt; <br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt; input type = "password" name = "upwd" placeholder = "Enter Password"&gt; <br> 
+                        &lt; br&gt; <br> &lt; br&gt; <br> 
+                        &lt; input type = "submit" value = "Login"&gt; <br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &lt; input type = "reset" value = "Clear"&gt; <br> 
+                        &lt; /form&gt; <br>  
+                    </li>
+                    </div>
+                    </div>
+                    <li><h3>POST request</h3><br>
+                    - In this method we have security for data.<br>
+                     - This method can send bulk of data.<br>
+                    - It can carry encrypted data from client to server.</li>
+                    <li>
+                        <button class="nav-link text-light bg-dark" id="example12" onclick="Example12()">For Example</button>
+                    </li>
+                    <div class="tab-pane fade show" id="ex13">
+                        <div id="exam12" style="display: none;">
+                    <li>&lt;!doctype html&gt; <br>
+                        &lt;html&gt; <br>
+                            &lt;head&gt; <br>&lt;/head&gt; <br>
+                            &lt;body&gt; <br>
+                                &lt;form action = "thanku.html" method = "POST" name = "my_form"&gt; <br>
+                                    &lt;label&gt; <br>Username:-  &lt;/label&gt; <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                                    &lt;input type = "text" name = "uname"&gt; <br>
+                                    &lt;br&gt; <br>&lt;br&gt; <br>
+                                    &lt;label&gt; <br>Password:- &lt;/label&gt; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &lt;input type = "password" name = "upwd"&gt; <br>
+                                    &lt;br&gt; <br>&lt;br&gt; <br>
+                                    &lt;input type = "submit" value = "Login"&gt; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &lt;input type = "reset" value = "Clear"&gt; <br>
+                                &lt;/form&gt; <br>
+                            
+                            &lt;/body&gt; <br>
+                        &lt;/html&gt; <br> 
+                        </li>
+                        </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="tab-pane fade show" id="nested">
+                    <h1>Nested List </h1>
+            <ul><li>- List inside list is called as nested list</li><br>
+                <li>
+                    <button class="nav-link text-light bg-dark" id="example13" onclick="Example13()">For Example</button>
+                </li>
+                <div class="tab-pane fade show" id="ex14">
+                    <div id="exam13" style="display: none;">
+                <li>&lt;!doctype html&gt; <br>
+                    &lt;html&gt; <br>
+                    
+                        &lt;body&gt; <br>
+                            &lt;h4&gt; <br>Nested list&lt;/h4&gt; <br>
+                            &lt;ul&gt; <br>
+                                &lt;li&gt; <br> Monitor 
+                                    &lt;ul&gt; <br>
+                                        &lt;li&gt; <br> CRT &lt;/li&gt; <br>
+                                        &lt;li&gt; <br> LCD &lt;/li&gt; <br>
+                                        &lt;li&gt; <br> LED &lt;/li&gt; <br>
+                                        &lt;li&gt; <br> Touch screen
+                                            &lt;ul&gt; <br>
+                                                &lt;li&gt; <br>Single Touch &lt;/li&gt; <br>
+                                                &lt;li&gt; <br>Multi touch &lt;/li&gt; <br>
+                                                &lt;li&gt; <br>3d Touch &lt;/li&gt; <br>
+                                            &lt;/ul&gt; <br>
+                                        &lt;/li&gt; <br>
+                                    &lt;/ul&gt; <br>
+                                
+                                &lt;/li&gt; <br>
+                                &lt;li&gt; <br> Keyboard 
+                                    &lt;ol&gt; <br>
+                                        &lt;li&gt; <br> Wire keyboard&lt;/li&gt; <br>
+                                        &lt;li&gt; <br> Wire less&lt;/li&gt; <br>
+                                    &lt;/ol&gt; <br>
+                                
+                                &lt;/li&gt; <br>
+                                &lt;li&gt; <br> Mouse 
+                                    &lt;ul&gt; <br>
+                                        &lt;li&gt; <br>Track Ball mouse &lt;/li&gt; <br>
+                                        &lt;li&gt; <br>Optical Mouse &lt;/li&gt; <br>
+                                        &lt;li&gt; <br>3D mouse &lt;/li&gt; <br>
+                                    &lt;/ul&gt; <br>
+                                &lt;/li&gt; <br>
+                                
+                                &lt;li&gt; <br> CPU 
+                                    &lt;ol&gt; <br>
+                                        &lt;li&gt; <br>Single Core &lt;/li&gt; <br>
+                                        &lt;li&gt; <br>Multi Core 
+                                            &lt;ol&gt; <br>
+                                                &lt;li&gt; <br>Dual Core &lt;/li&gt; <br>
+                                                &lt;li&gt; <br>Quad Core &lt;/li&gt; <br>
+                                                &lt;li&gt; <br>i series 
+                                                    &lt;ol&gt; <br>
+                                                        &lt;li&gt; <br>i3 &lt;/li&gt; <br>
+                                                        &lt;li&gt; <br>i5 &lt;/li&gt; <br>
+                                                        &lt;li&gt; <br>i7 &lt;/li&gt; <br>
+                                                        &lt;li&gt; <br>i9 &lt;/li&gt; <br>
+                                                        &lt;li&gt; <br>i11 &lt;/li&gt; <br>
+                                                    &lt;/ol&gt; <br>
+                                                &lt;/li&gt; <br>
+                                            &lt;/ol&gt; <br>
+                                        
+                                        &lt;/li&gt; <br>
+                                        
+                                    &lt;/ol&gt; <br>
+                                
+                                &lt;/li&gt; <br>
+                                &lt;li&gt; <br> Speakers &lt;/li&gt; <br>
+                                &lt;li&gt; <br> Mic&lt;/li&gt; <br>
+                                &lt;li&gt; <br> Joystick&lt;/li&gt; <br>
+                                &lt;li&gt; <br> Printer&lt;/li&gt; <br>
+                                &lt;li&gt; <br> Scanner&lt;/li&gt; <br>
+                                &lt;li&gt; <br> Camera&lt;/li&gt; <br>
+                                &lt;li&gt; <br> Projector&lt;/li&gt; <br>
+                                &lt;li&gt; <br> External disc drives&lt;/li&gt; <br>
+                            &lt;/ul&gt; <br>
+                        &lt;/body&gt; <br>
+                    &lt;/html&gt; <br> 
+                    </li>
+                    </div>
+                    </div>
+            </ul>
+                </div>
+                <div class="tab-pane fade show" id="definition">
+                    <h1>Definition List</h1>
+                    <ul>
+                        <li> - It is also called as descriptive list.<br>
+                        - It is used to give definitions to definition terms.<br>
+                        - < dt> is used to specify definition term.<br>
+                        - < dd> is used to specify definition data / description</li><br>
+                        <li>
+                            <button class="nav-link text-light bg-dark" id="example14" onclick="Example14()">For Example</button>
+                        </li>
+                        <div class="tab-pane fade show" id="ex15">
+                            <div id="exam14" style="display: none;">
+                        <li>&lt;dl&gt; <br>
+                            &lt;dt&gt; <br> Monitor&lt;/dt&gt; <br>
+                            &lt;dd&gt; <br> Computer monitor - Wikipediahttps://en.wikipedia.org › wiki › Computer_monitor
+                                A computer monitor is an output device that displays information in pictorial or text form. A monitor usually comprises a visual display, some circuitry, ...
+                            Electronic visual display • Thin-film-transistor liquid • LED-backlit LCD
+                
+                                Monitor - Wikipediahttps://en.wikipedia.org › wiki › Monitor
+                                Monitor (synchronization), an approach to synchronize two or more computer tasks that use a shared resource • Computer monitor, an output device that displays ...&lt;/dd&gt; <br>
+                            
+                            &lt;dt&gt; <br> Keyboard&lt;/dt&gt; <br>
+                            &lt;dd&gt; <br> Computer keyboard - Wikipediahttps://en.wikipedia.org › wiki › Computer_keyboard
+                                A computer keyboard is a peripheral input device modeled after the typewriter keyboard which uses an arrangement of buttons or keys to act as mechanical ...
+                            Keyboard computer •Typewriter •Electronic switching system
+                
+                                Keyboard technology - Wikipediahttps://en.wikipedia.org › wiki › Keyboard_technology
+                                The technology of computer keyboards includes many elements. Among the more important of these is the switch technology that they use.&lt;/dd&gt; <br>
+                &lt;/dl&gt; <br> 
+                </li>
+                </div>
+                </div>
+                    </ul>
+                </div>
+                <div class="tab-pane fade show" id="table">
+                    <h1>Table Tags</h1>
+            <ul>
+                <li> - Tables are used to represent data in tabular form.<br>
+                 - Tables are created using < table> tag.<br>
+                 - Table rows are represented using < tr> tag<br>
+                 - Table cells (data) represented using < td> tag<br>
+                 - Table headings are represented using < th> tag<br>
+                 - Table is devided into two section head and body<br>
+                 - Table head is represented using < thead> tag<br>
+                 - Table body is represented using < tbody> tag</li><br>
+                &lt; table border = "3px" 
+                align = "center"
+                
+                bordercolor = "blue"
+                height = "500px"
+                width = "500px"
+                cellspacing = "10px"
+                
+                cellpadding = "10px"&gt; <br> 
+                <li>
+                    <button class="nav-link text-light bg-dark" id="example15" onclick="Example15()">For Example</button>
+                </li>
+                <div class="tab-pane fade show" id="ex16">
+                    <div id="exam15" style="display: none;">
+                &lt; thead bgcolor = "yellow"&gt; <br>  
+                    &lt; tr&gt; <br> 
+                        &lt; th&gt; <br>  Sr no&lt; /th&gt; <br> 
+                        &lt; th&gt; <br>  P_id&lt; /th&gt; <br> 
+                        &lt; th bgcolor = "gray"&gt; <br>  P_name&lt; /th&gt; <br> 
+                        &lt; th&gt; <br>  P_Cost&lt; /th&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                &lt; /thead&gt; <br> 
+                
+                &lt; tbody&gt; <br>  
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  1&lt; /td&gt; <br> 
+                        &lt; td &gt; <br>  111&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  P_one&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  10000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  2&lt; /td&gt; <br> 
+                        &lt; td valign = top rowspan = 2&gt; <br>  222&lt; /td&gt; <br> 
+                        &lt; td align = right&gt; <br>  P_two&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  20000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                    
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  3&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  333&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  p_three&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  30000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                    
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  4&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  444&lt; /td&gt; <br> 
+                        &lt; td background = "Tornado.gif" colspan = 2&gt; <br>  P_four&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  40000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                    
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  5&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  555&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  P_five&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  50000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                &lt; /tbody&gt; <br> 
+            &lt; /table&gt; <br> 
+            
+            &lt; br&gt; <br> 
+            &lt; table border = "3px"&gt; <br> 
+                &lt; thead&gt; <br>  
+                    &lt; tr&gt; <br> 
+                        &lt; th&gt; <br>  Sr no&lt; /th&gt; <br> 
+                        &lt; th&gt; <br>  P_id&lt; /th&gt; <br> 
+                        &lt; th&gt; <br>  P_name&lt; /th&gt; <br> 
+                        &lt; th&gt; <br>  P_Cost&lt; /th&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                &lt; /thead&gt; <br> 
+                
+                &lt; tbody&gt; <br>  
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  1&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  111&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  P_one&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  10000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  2&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  222&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  P_two&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  20000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                    
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  3&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  333&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  p_three&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  30000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                    
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  4&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  444&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  P_four&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  40000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                    
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  5&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  555&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  P_five&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  50000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                &lt; /tbody&gt; <br> 
+            &lt; /table&gt; <br> 
         
-        </ul>
-        <hr>
-        <h1>Textarea</h1>
-        <ul>
-        <li>&lt;!doctype html&gt; <br>
-            &lt;html&gt; <br>
-                &lt;head&gt; <br>&lt;/head&gt; <br>
-                &lt;body&gt; <br>
-                    &lt;textarea rows = 5 cols = 45 maxlength = 6&gt; <br>&lt;/textarea&gt; <br>
+            &lt; br&gt; <br> 
+            
+            &lt; table border = "3px"
+                align = "right"&gt; <br> 
+                &lt; thead&gt; <br>  
+                    &lt; tr&gt; <br> 
+                        &lt; th&gt; <br>  Sr no&lt; /th&gt; <br> 
+                        &lt; th&gt; <br>  P_id&lt; /th&gt; <br> 
+                        &lt; th&gt; <br>  P_name&lt; /th&gt; <br> 
+                        &lt; th&gt; <br>  P_Cost&lt; /th&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                &lt; /thead&gt; <br> 
                 
-                &lt;/body&gt; <br>
-            &lt;/html&gt; <br> 
-            </li>
-        </ul>
-        <hr>
-        <h1>Dropdown list</h1>
-        <ul>
-            <li><h4>HTML dropdown list(< select> tag)</h4></li>
-            <li>- < select> tag is used to create dropdown list</li>
-            <li> - < option> tag inside select element define the
-                available options in the list.</li>
-            <li> - < select> is a paired tag</li>
-            <li>- < option> is a paired tag</li><br>
-            <li><h4>< optgroup> tag</h4></li>
-            <li> - it is used to group logically related options in the dropdown list</li>
-            <li>- For long list options group of related options are easier for user to handle</li><br><br>
-            <li>&lt; select multiple = multiple size = 5 placeholder = "Subjects"&gt; <br> 
-                &lt; optgroup label = "Languages"&gt; <br> 
-                    &lt; option value = "hn" label = "Hindi_Language"&gt; <br> Hindi &lt; /option&gt; <br> 
-                    &lt; option&gt; <br> Punjabi &lt; /option&gt; <br> 
-                    &lt; option&gt; <br> Hariyavi &lt; /option&gt; <br> 
-                    &lt; option selected = selected&gt; <br> English &lt; /option&gt; <br> 
-                &lt; /optgroup&gt; <br> 
-                &lt; optgroup label = Maths&gt; <br>  
-                    &lt; option&gt; <br> Algebra &lt; /option&gt; <br> 
-                    &lt; option&gt; <br> Geometry &lt; /option&gt; <br> 
-                &lt; /optgroup&gt; <br> 
-                &lt; optgroup label = "Science"&gt; <br> 
-                    &lt; option&gt; <br> Physics &lt; /option&gt; <br> 
-                    &lt; option&gt; <br> Chemistry &lt; /option&gt; <br> 
-                    &lt; option disabled = disabled&gt; <br> Biology &lt; /option&gt; <br> 
-                &lt; /optgroup&gt; <br> 
+                &lt; tbody&gt; <br>  
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  1&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  111&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  P_one&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  10000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
                 
-            &lt; /select&gt; <br>  
-       </li>
-        </ul>
-       <hr>
-       <h1>Radio control</h1>  
-       <ul>
-       <li> - Radio buttons are used when out of many optionas just one option required to be selected.</li>
-       <li> - these are created using HTML input tag type = "radio"</li><br><br>
-       <li>	&lt;input type = "radio" name = "opt"&gt; <br> True
-		&lt;input type = "radio" name = "opt"&gt; <br> False
-		&lt;input type = "radio" name = "opt" checked = checked&gt; <br> All Above
-		&lt;input type = "radio" name = "opt"&gt; <br> None Above
-	
-	&lt;h2&gt; <br>Gender&lt;/h2&gt; <br>
-		&lt;input type = "radio" name  = "gender"&gt; <br> Male		
-		&lt;input type = "radio" name  = "gender"&gt; <br> Female 
-</li>
-       </ul>
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  2&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  222&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  P_two&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  20000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                    
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  3&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  333&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  p_three&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  30000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                    
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  4&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  444&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  P_four&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  40000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                    
+                    &lt; tr&gt; <br> 
+                        &lt; td&gt; <br>  5&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  555&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  P_five&lt; /td&gt; <br> 
+                        &lt; td&gt; <br>  50000&lt; /td&gt; <br> 
+                    &lt; /tr&gt; <br> 
+                &lt; /tbody&gt; <br> 
+            &lt; /table&gt; <br> 
+            </div>
+            </div>
+            </ul>
+                </div>
 
-       <hr>
-       <h1>Checkbox</h1>
-       <ul>
-           <li>- Checkboxes are used when more than one options are required to be selected</li>
-           <li> - these are created using HTML input tag type = "checkbox"</li><br>
-           <br>
-           <li>&lt;h1&gt; <br>Select your hobby / s &lt;/h1&gt; <br>
-            &lt;input type = "checkbox" name = "chess"&gt; <br>Chess
-            &lt;input type = "checkbox" name = "songs"&gt; <br>Songs
-            &lt;input type = "checkbox" name = "reading"&gt; <br>Reading
-            &lt;input type = "checkbox" name = "movativatoin"&gt; <br>Motivation
-            &lt;input type = "checkbox" name = "travelling"&gt; <br>Travelling
-            &lt;input type = "checkbox" name = "dancing"&gt; <br>Dancing
-            &lt;input type = "checkbox" name = "cooking"&gt; <br>Cooking
-            &lt;input type = "checkbox" name = "casting"&gt; <br>Casting
-            &lt;input type = "checkbox" name = "Cricket"&gt; <br>Cricket
-            &lt;input type = "checkbox" name = "crafting"&gt; <br>Crafting
-            &lt;input type = "checkbox" name = "videoseries"&gt; <br>Videoseries 
-    </li>
-       </ul>
-       <hr>
-       <h1>HTTP</h1>
-       <ul><li>- Hyper Text Transfer Protocol</li>
-       <li> - Hyper Text Transfer Protocol</li>
-       <li>- it is used to enable / establish communication between client and server.</li>
-       <li>- HTTP works as request-response protocol between server and client.</li>
-       <li>- a web browser is client</li>
-       <li> - the computer who hosts the website is server</li>
-       <li><h4>HTTP request methods</h4></li>
-       <li> - there are various methods of HTTP requests Eg	GET, POST, PUT, UPDATE, DELETE, CONNETCT,..etc</li>
-       <li>- of which two methods are commonly used for request-response
-        between client and server<br>
-         i) GET<br>
-         ii)POST</li>
-         <li><h3>Action attribute</h3></li>
-         <li> - this attribute is used to specify url of the server page to which we want to send our form data.</li>
-         <li><h3>i) GET methods</h3></li>
-         <li>- In this method there is no security for data</li>
-         <li> - This method can send only limited data (2MB)</li>
-         <li> - It can carry raw data from client to server</li>
-         <li>&lt; form method = "GET" action = "https://www.google.com" name = "my_form"&gt; <br> 
-            &lt; label&gt; <br> Username :- &lt; /label&gt; <br>  &nbsp;&nbsp;&nbsp;&nbsp;
-            &lt; input type = "text" name = "uname" placeholder = "Enter Username"&gt; <br> 
-            &lt; br&gt; <br> &lt; br&gt; <br> 
-            &lt; label&gt; <br> Password:- &lt; /label&gt; <br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &lt; input type = "password" name = "upwd" placeholder = "Enter Password"&gt; <br> 
-            &lt; br&gt; <br> &lt; br&gt; <br> 
-            &lt; input type = "submit" value = "Login"&gt; <br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &lt; input type = "reset" value = "Clear"&gt; <br> 
-            &lt; /form&gt; <br>  
-         </li>
-         <li><h3>POST request</h3></li>
-         <li>- In this method we have security for data.</li>
-         <li> - This method can send bulk of data.</li>
-         <li>- It can carry encrypted data from client to server.</li>
-         <li>&lt;!doctype html&gt; <br>
-            &lt;html&gt; <br>
-                &lt;head&gt; <br>&lt;/head&gt; <br>
-                &lt;body&gt; <br>
-                    &lt;form action = "thanku.html" method = "POST" name = "my_form"&gt; <br>
-                        &lt;label&gt; <br>Username:-  &lt;/label&gt; <br> &nbsp;&nbsp;&nbsp;&nbsp;
-                        &lt;input type = "text" name = "uname"&gt; <br>
-                        &lt;br&gt; <br>&lt;br&gt; <br>
-                        &lt;label&gt; <br>Password:- &lt;/label&gt; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &lt;input type = "password" name = "upwd"&gt; <br>
-                        &lt;br&gt; <br>&lt;br&gt; <br>
-                        &lt;input type = "submit" value = "Login"&gt; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &lt;input type = "reset" value = "Clear"&gt; <br>
-                    &lt;/form&gt; <br>
-                
-                &lt;/body&gt; <br>
-            &lt;/html&gt; <br> 
-            </li>
-         </ul>
-         <hr>
-         <h1>Nested List </h1>
-         <ul><li>- List inside list is called as nested list</li><br>
-            <li>&lt;!doctype html&gt; <br>
-                &lt;html&gt; <br>
-                
-                    &lt;body&gt; <br>
-                        &lt;h4&gt; <br>Nested list&lt;/h4&gt; <br>
-                        &lt;ul&gt; <br>
-                            &lt;li&gt; <br> Monitor 
-                                &lt;ul&gt; <br>
-                                    &lt;li&gt; <br> CRT &lt;/li&gt; <br>
-                                    &lt;li&gt; <br> LCD &lt;/li&gt; <br>
-                                    &lt;li&gt; <br> LED &lt;/li&gt; <br>
-                                    &lt;li&gt; <br> Touch screen
-                                        &lt;ul&gt; <br>
-                                            &lt;li&gt; <br>Single Touch &lt;/li&gt; <br>
-                                            &lt;li&gt; <br>Multi touch &lt;/li&gt; <br>
-                                            &lt;li&gt; <br>3d Touch &lt;/li&gt; <br>
-                                        &lt;/ul&gt; <br>
-                                    &lt;/li&gt; <br>
-                                &lt;/ul&gt; <br>
-                            
-                            &lt;/li&gt; <br>
-                            &lt;li&gt; <br> Keyboard 
-                                &lt;ol&gt; <br>
-                                    &lt;li&gt; <br> Wire keyboard&lt;/li&gt; <br>
-                                    &lt;li&gt; <br> Wire less&lt;/li&gt; <br>
-                                &lt;/ol&gt; <br>
-                            
-                            &lt;/li&gt; <br>
-                            &lt;li&gt; <br> Mouse 
-                                &lt;ul&gt; <br>
-                                    &lt;li&gt; <br>Track Ball mouse &lt;/li&gt; <br>
-                                    &lt;li&gt; <br>Optical Mouse &lt;/li&gt; <br>
-                                    &lt;li&gt; <br>3D mouse &lt;/li&gt; <br>
-                                &lt;/ul&gt; <br>
-                            &lt;/li&gt; <br>
-                            
-                            &lt;li&gt; <br> CPU 
-                                &lt;ol&gt; <br>
-                                    &lt;li&gt; <br>Single Core &lt;/li&gt; <br>
-                                    &lt;li&gt; <br>Multi Core 
-                                        &lt;ol&gt; <br>
-                                            &lt;li&gt; <br>Dual Core &lt;/li&gt; <br>
-                                            &lt;li&gt; <br>Quad Core &lt;/li&gt; <br>
-                                            &lt;li&gt; <br>i series 
-                                                &lt;ol&gt; <br>
-                                                    &lt;li&gt; <br>i3 &lt;/li&gt; <br>
-                                                    &lt;li&gt; <br>i5 &lt;/li&gt; <br>
-                                                    &lt;li&gt; <br>i7 &lt;/li&gt; <br>
-                                                    &lt;li&gt; <br>i9 &lt;/li&gt; <br>
-                                                    &lt;li&gt; <br>i11 &lt;/li&gt; <br>
-                                                &lt;/ol&gt; <br>
-                                            &lt;/li&gt; <br>
-                                        &lt;/ol&gt; <br>
-                                    
-                                    &lt;/li&gt; <br>
-                                    
-                                &lt;/ol&gt; <br>
-                            
-                            &lt;/li&gt; <br>
-                            &lt;li&gt; <br> Speakers &lt;/li&gt; <br>
-                            &lt;li&gt; <br> Mic&lt;/li&gt; <br>
-                            &lt;li&gt; <br> Joystick&lt;/li&gt; <br>
-                            &lt;li&gt; <br> Printer&lt;/li&gt; <br>
-                            &lt;li&gt; <br> Scanner&lt;/li&gt; <br>
-                            &lt;li&gt; <br> Camera&lt;/li&gt; <br>
-                            &lt;li&gt; <br> Projector&lt;/li&gt; <br>
-                            &lt;li&gt; <br> External disc drives&lt;/li&gt; <br>
-                        &lt;/ul&gt; <br>
-                    &lt;/body&gt; <br>
-                &lt;/html&gt; <br> 
-                </li>
-        </ul>
-        <hr>
-        <h1>Definition List</h1>
-        <ul>
-            <li> - It is also called as descriptive list.</li>
-            <li> - It is used to give definitions to definition terms.</li>
-            <li> - < dt> is used to specify definition term.</li>
-            <li> - < dd> is used to specify definition data / description</li><br>
-            <li>&lt;dl&gt; <br>
-                &lt;dt&gt; <br> Monitor&lt;/dt&gt; <br>
-                &lt;dd&gt; <br> Computer monitor - Wikipediahttps://en.wikipedia.org › wiki › Computer_monitor
-                    A computer monitor is an output device that displays information in pictorial or text form. A monitor usually comprises a visual display, some circuitry, ...
-                  Electronic visual display • Thin-film-transistor liquid • LED-backlit LCD
-    
-                    Monitor - Wikipediahttps://en.wikipedia.org › wiki › Monitor
-                    Monitor (synchronization), an approach to synchronize two or more computer tasks that use a shared resource • Computer monitor, an output device that displays ...&lt;/dd&gt; <br>
-                
-                &lt;dt&gt; <br> Keyboard&lt;/dt&gt; <br>
-                &lt;dd&gt; <br> Computer keyboard - Wikipediahttps://en.wikipedia.org › wiki › Computer_keyboard
-                    A computer keyboard is a peripheral input device modeled after the typewriter keyboard which uses an arrangement of buttons or keys to act as mechanical ...
-                   Keyboard computer •Typewriter •Electronic switching system
-    
-                    Keyboard technology - Wikipediahttps://en.wikipedia.org › wiki › Keyboard_technology
-                    The technology of computer keyboards includes many elements. Among the more important of these is the switch technology that they use.&lt;/dd&gt; <br>
-    &lt;/dl&gt; <br> 
-    </li>
-        </ul>
-        <hr>
-        <h1>Table Tags</h1>
-        <ul>
-            <li> - Tables are used to represent data in tabular form.</li>
-            <li> - Tables are created using < table> tag.</li>
-            <li> - Table rows are represented using < tr> tag</li>
-            <li> - Table cells (data) represented using < td> tag</li>
-            <li> - Table headings are represented using < th> tag</li>
-            <li> - Table is devided into two section head and body</li>
-            <li> - Table head is represented using < thead> tag</li>
-            <li> - Table body is represented using < tbody> tag</li><br>
-            &lt; table border = "3px" 
-			   align = "center"
-			   
-			   bordercolor = "blue"
-			   height = "500px"
-			   width = "500px"
-			   cellspacing = "10px"
-			   
-			   cellpadding = "10px"&gt; <br> 
-			&lt; thead bgcolor = "yellow"&gt; <br>  
-				&lt; tr&gt; <br> 
-					&lt; th&gt; <br>  Sr no&lt; /th&gt; <br> 
-					&lt; th&gt; <br>  P_id&lt; /th&gt; <br> 
-					&lt; th bgcolor = "gray"&gt; <br>  P_name&lt; /th&gt; <br> 
-					&lt; th&gt; <br>  P_Cost&lt; /th&gt; <br> 
-				&lt; /tr&gt; <br> 
-			&lt; /thead&gt; <br> 
-			
-			&lt; tbody&gt; <br>  
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  1&lt; /td&gt; <br> 
-					&lt; td &gt; <br>  111&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  P_one&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  10000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-			
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  2&lt; /td&gt; <br> 
-					&lt; td valign = top rowspan = 2&gt; <br>  222&lt; /td&gt; <br> 
-					&lt; td align = right&gt; <br>  P_two&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  20000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-				
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  3&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  333&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  p_three&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  30000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-				
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  4&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  444&lt; /td&gt; <br> 
-					&lt; td background = "Tornado.gif" colspan = 2&gt; <br>  P_four&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  40000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-				
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  5&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  555&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  P_five&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  50000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-			&lt; /tbody&gt; <br> 
-		&lt; /table&gt; <br> 
-		
-		&lt; br&gt; <br> 
-		&lt; table border = "3px"&gt; <br> 
-			&lt; thead&gt; <br>  
-				&lt; tr&gt; <br> 
-					&lt; th&gt; <br>  Sr no&lt; /th&gt; <br> 
-					&lt; th&gt; <br>  P_id&lt; /th&gt; <br> 
-					&lt; th&gt; <br>  P_name&lt; /th&gt; <br> 
-					&lt; th&gt; <br>  P_Cost&lt; /th&gt; <br> 
-				&lt; /tr&gt; <br> 
-			&lt; /thead&gt; <br> 
-			
-			&lt; tbody&gt; <br>  
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  1&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  111&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  P_one&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  10000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-			
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  2&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  222&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  P_two&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  20000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-				
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  3&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  333&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  p_three&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  30000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-				
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  4&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  444&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  P_four&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  40000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-				
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  5&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  555&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  P_five&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  50000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-			&lt; /tbody&gt; <br> 
-		&lt; /table&gt; <br> 
-	
-		&lt; br&gt; <br> 
-		
-		&lt; table border = "3px"
-		       align = "right"&gt; <br> 
-			&lt; thead&gt; <br>  
-				&lt; tr&gt; <br> 
-					&lt; th&gt; <br>  Sr no&lt; /th&gt; <br> 
-					&lt; th&gt; <br>  P_id&lt; /th&gt; <br> 
-					&lt; th&gt; <br>  P_name&lt; /th&gt; <br> 
-					&lt; th&gt; <br>  P_Cost&lt; /th&gt; <br> 
-				&lt; /tr&gt; <br> 
-			&lt; /thead&gt; <br> 
-			
-			&lt; tbody&gt; <br>  
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  1&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  111&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  P_one&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  10000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-			
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  2&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  222&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  P_two&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  20000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-				
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  3&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  333&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  p_three&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  30000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-				
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  4&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  444&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  P_four&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  40000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-				
-				&lt; tr&gt; <br> 
-					&lt; td&gt; <br>  5&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  555&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  P_five&lt; /td&gt; <br> 
-					&lt; td&gt; <br>  50000&lt; /td&gt; <br> 
-				&lt; /tr&gt; <br> 
-			&lt; /tbody&gt; <br> 
-		&lt; /table&gt; <br> 
-        </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <span>@ Samriti</span>
+        </div>
 
-       <div class="footer">
-        <span>@ Samriti</span>
-       </div>
-    </body>
+
+
+
+        <script>
+
+            function displayExampleText(){
+                var exText = document.getElementById("exampleTxt");
+                console.log(exText.innerText)
+                if(exText.style.display ==='none'){
+                    exText.style.display ="block"
+                }
+                else{
+                    exText.style.display ="none"
+                }
+
+            }
+            function Example1(){
+                var exText1 = document.getElementById("exam1");
+                console.log(exText1.innerText)
+                if(exText1.style.display ==='none'){
+                    exText1.style.display ="block"
+                }
+                else{
+                    exText1.style.display ="none"
+                }
+
+            }
+
+            function Example2(){
+                var exText2 = document.getElementById("exam2");
+                console.log(exText2.innerText)
+                if(exText2.style.display ==='none'){
+                    exText2.style.display ="block"
+                }
+                else{
+                    exText2.style.display ="none"
+                }
+
+            }
+
+            function Example3(){
+                var exText3 = document.getElementById("exam3");
+                console.log(exText3.innerText)
+                if(exText3.style.display ==='none'){
+                    exText3.style.display ="block"
+                }
+                else{
+                    exText3.style.display ="none"
+                }
+
+            }
+
+            function Example4(){
+                var exText4 = document.getElementById("exam4");
+                console.log(exText4.innerText)
+                if(exText4.style.display ==='none'){
+                    exText4.style.display ="block"
+                }
+                else{
+                    exText4.style.display ="none"
+                }
+
+            }
+
+            function Example5(){
+                var exText5 = document.getElementById("exam5");
+                console.log(exText5.innerText)
+                if(exText5.style.display ==='none'){
+                    exText5.style.display ="block"
+                }
+                else{
+                    exText5.style.display ="none"
+                }
+
+            }
+
+            function Example6(){
+                var exText6 = document.getElementById("exam6");
+                console.log(exText6.innerText)
+                if(exText6.style.display ==='none'){
+                    exText6.style.display ="block"
+                }
+                else{
+                    exText6.style.display ="none"
+                }
+
+            }
+
+            function Example7(){
+                var exText7 = document.getElementById("exam7");
+                console.log(exText7.innerText)
+                if(exText7.style.display ==='none'){
+                    exText7.style.display ="block"
+                }
+                else{
+                    exText7.style.display ="none"
+                }
+
+            }
+
+            function Example8(){
+                var exText8 = document.getElementById("exam8");
+                console.log(exText8.innerText)
+                if(exText8.style.display ==='none'){
+                    exText8.style.display ="block"
+                }
+                else{
+                    exText8.style.display ="none"
+                }
+
+            }
+
+            function Example9(){
+                var exText9 = document.getElementById("exam9");
+                console.log(exText9.innerText)
+                if(exText9.style.display ==='none'){
+                    exText9.style.display ="block"
+                }
+                else{
+                    exText9.style.display ="none"
+                }
+
+            }
+
+            function Example10(){
+                var exText10 = document.getElementById("exam10");
+                console.log(exText10.innerText)
+                if(exText10.style.display ==='none'){
+                    exText10.style.display ="block"
+                }
+                else{
+                    exText10.style.display ="none"
+                }
+
+            }
+
+            function Example11(){
+                var exText11 = document.getElementById("exam11");
+                console.log(exText11.innerText)
+                if(exText11.style.display ==='none'){
+                    exText11.style.display ="block"
+                }
+                else{
+                    exText11style.display ="none"
+                }
+
+            }
+
+            function Example12(){
+                var exText12 = document.getElementById("exam12");
+                console.log(exText12.innerText)
+                if(exText12.style.display ==='none'){
+                    exText12.style.display ="block"
+                }
+                else{
+                    exText12.style.display ="none"
+                }
+
+            }
+
+            function Example13(){
+                var exText13 = document.getElementById("exam13");
+                console.log(exText13.innerText)
+                if(exText13.style.display ==='none'){
+                    exText13.style.display ="block"
+                }
+                else{
+                    exText13.style.display ="none"
+                }
+
+            }
+
+            function Example14(){
+                var exText14 = document.getElementById("exam14");
+                console.log(exText14.innerText)
+                if(exText14.style.display ==='none'){
+                    exText14.style.display ="block"
+                }
+                else{
+                    exText14.style.display ="none"
+                }
+
+            }
+
+            function Example15(){
+                var exText15 = document.getElementById("exam15");
+                console.log(exText15.innerText)
+                if(exText15.style.display ==='none'){
+                    exText15.style.display ="block"
+                }
+                else{
+                    exText15.style.display ="none"
+                }
+
+            }
+        </script>
+        </body>
 </html>

@@ -2,10 +2,19 @@
     <head>
         <title>Javascript</title>
         <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>   
+    
     </head>
-    <body style="background: linear-gradient(to left,rgb(109, 185, 169),rgb(158, 87, 90));">
+    <body style="background: linear-gradient(to left,rgb(62, 179, 153),rgb(175, 157, 53));">
         <div style="background-color:black; color:white; width:100%; height:10%; margin-top: -13px;">
             <ul class="header">
+                <div class="container m-0 ">
+                    <img src="js.png" style="width: 60px; height: 40px; float:left">
+                </div>
                 <li class="list"><a href="index.html">Home</a></li>
                 <li class="list"><a href="html1.html">HTML</a></li>
                 <li class="list"><a href="cs.html">CSS</a></li>
@@ -14,9 +23,105 @@
             </ul> 
             </div>
         <div>
-            <h1>Javascript</h1>
+        <div class="row lheight ml-0">
+            <ul class="nav nav-pills flex-column col-2 bg-dark">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-toggle = "pill">Home</a>
+                </li>
+            <li class="nav-item">
+                <a href="#intro" class="nav-link" data-toggle = "pill">Introduction</a>
+            </li>
+    
+            <li class="nav-item">
+                <a href="#env" class="nav-link" data-toggle = "pill">Environmental setup</a>
+            </li>
+            <li class="nav-item">
+                <a href="#his" class="nav-link" data-toggle = "pill">History</a>
+            </li>
+            <li class="nav-item">
+                <a href="#exe" class="nav-link" data-toggle = "pill">Execution of Javascript programs</a>
+            </li>
+            <li class="nav-item">
+                <a href="#var" class="nav-link" data-toggle = "pill">Variables</a>
+            </li>
+            <li class="nav-item">
+                <a href="#str" class="nav-link" data-toggle = "pill">String</a>
+            </li>
+            <li class="nav-item">
+                <a href="#num" class="nav-link" data-toggle = "pill">Numbers</a>
+            </li>
+            <li class="nav-item">
+                <a href="#operator" class="nav-link" data-toggle = "pill">Operators</a>
+            </li>
+            <li class="nav-item">
+                <a href="#control" class="nav-link" data-toggle = "pill">Control Statements</a>
+            </li>
+            <li class="nav-item">
+                <a href="#fun" class="nav-link" data-toggle = "pill">Functions</a>
+            </li>
+            <li class="nav-item">
+                <a href="#constructor" class="nav-link" data-toggle = "pill">Constructor Functions</a>
+            </li>
+            <li class="nav-item">
+                <a href="#parameter" class="nav-link" data-toggle = "pill">Passing parameters to functions</a>
+            </li>
+            <li class="nav-item">
+                <a href="#json" class="nav-link" data-toggle = "pill">JSON</a>
+            </li>
+            <li class="nav-item">
+                <a href="#promise" class="nav-link" data-toggle = "pill">Promises</a>
+            </li>
+            <li class="nav-item">
+                <a href="#callback" class="nav-link" data-toggle = "pill">Callbacks</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link" data-toggle = "pill"></a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link" data-toggle = "pill"></a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link" data-toggle = "pill"></a>
+            </li>
+
+        </ul>
+    
+    
+        <div class="tab-content col white-color">
+            <div class="tab-pane fade show active" id="home" >
+               
+                <ul>
+                <li>
+                JavaScript is the world's most popular programming language.<br>
+
+                JavaScript is the programming language of the Web.<br>        
+
+                JavaScript is easy to learn.
+            </li>
+        </ul>
+                <img src="js.png" style="float: right; margin-right:10%; margin-top: -12%;">
+            </div>
+            
+            <div class="tab-pane fade show" id="intro">
+                <h1>Javascript</h1>
             <ul>
-                <li> Javascript is a scripting language.<br>
+                <li > Javascript is a scripting language.<br>
+                   
+                     Javascript programs(scripts) can be executed by either web browsers or Node Engines.<br>
+                     Javascript is Object Based Scripting Language.<br>
+                    Javascript supports predefined objects<br>
+                       Example:-<br>
+                        	window,<br>
+                           document,<br>
+                           console,	etc.</li>
+                           <p style="border:1px solid black; position: fixed;bottom: 2px   ;
+                        background-color:black;color:white; width:30px; height:20px; float: right; margin-left: 90%;"><a href="js.html">Top</a></p>
+            </ul>
+            </div>
+            <div class="tab-pane fade show" id="his">
+                <h1>History</h1>
+                <ul>
+                    <li>
                     - Javascript is implemented by Brendan in 1995
                       at Netscape.<br>
                     - It was initially named as Livescript.<br>
@@ -32,83 +137,85 @@
                            - VeuJS<br>
                            - NodeJS<br>
                            - etc<br>
-                    - Javascript programs(scripts) can be executed<br>
-                      by either web browsers or Node Engines.<br>
-                    - Javascript is Object Based Scripting Language.<br>
-                    - Javascript supports predefined objects<br>
-                       Eg	window,<br>
-                           document,<br>
-                           console,	etc.</li>
-                           <p style="border:1px solid black; position: fixed;bottom: 2px   ;
-                        background-color:black;color:white; width:30px; height:20px; float: right; margin-left: 90%;"><a href="js.html">Top</a></p>
-            </ul>
-            <hr>
-            <h1>Environmental setup</h1>
-            <ul>
-                <li>- VS Code<br>
-                    Website :- https://code.visualstudio.com/#alt-downloads<br>
-                 - NodeJS<br>
-                    Website :- https://nodejs.org/en/download/</li>
-                    <li>Note:- Javascript programs must have extension '.js'</li>
-            </ul>
-            <hr>
-            <h1>Execution of Javascript programs</h1>
-            <ul>
-                <li>demo.js<br>
-                    console.log("Hello world")</li>
-                    <li>1. Command prompt<br>
-                        >node demo.js<br>
-                        Note:- 'document' object not supported here<br>
-                        
-                    2. HTML<br>
-                    index.html<br>
-                        ...
-                        &lt;script src = " demo.js "
-                        ...
-                        
-                        - open this file in web browser<br>
-                        - inspect console
-                        <br>
-                    3. HTML with script<br>
-                        ...
-                        &lt;script&gt; <br>
-                         console.log("Hello World")
-                        &lt;/script&gt; <br>
-
-                        ...
-                        
-                        - open this file in web browser
-                        - inspect console
+                           </li>
+                        </ul>
+            </div>
+            <div class="tab-pane fade show" id="env">
+                <h1>Environmental setup</h1>
+                <ul>
+                    <li>- VS Code<br>
+                        Website :- https://code.visualstudio.com/#alt-downloads<br>
+                     - NodeJS<br>
+                        Website :- https://nodejs.org/en/download/</li>
+                        <li>Note:- Javascript programs must have extension '.js'</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade show" id="exe">
+                <h1>Execution of Javascript programs</h1>
+                <ul>
+                    <li>demo.js<br>
+                        console.log("Hello world")</li>
+                        <li>1. Command prompt<br>
+                            >node demo.js<br>
+                            Note:- 'document' object not supported here<br>
+                            
+                        2. HTML<br>
+                        index.html<br>
+                            ...
+                            &lt;script src = " demo.js "
+                            ...
+                            
+                            - open this file in web browser<br>
+                            - inspect console
+                            <br>
+                        3. HTML with script<br>
+                            ...
+                            &lt;script&gt; <br>
+                             console.log("Hello World")
+                            &lt;/script&gt; <br>
+    
+                            ...
+                            
+                            - open this file in web browser
+                            - inspect console
+                            </li>
+                </ul>
+            </div>
+            <div class="tab-pane fade show" id="var">
+                <h1>Variables</h1>
+                <ul>
+                    <li> - Variables are used to store data.<br>
+                        - by using variables we can store any type of data,
+                           Eg	numbers, strings, files, audio, video, etc.<br>
+                        - Variables can be declared using 'var', 'let', 'const'.<br>
+                        - 'let' and 'const' keywords introduced in ES5.<br>
                         </li>
-            </ul>
-            <hr>
-            <h1>Variables</h1>
-            <ul>
-                <li> - Variables are used to store data.<br>
-                    - by using variables we can store any type of data,
-                       Eg	numbers, strings, files, audio, video, etc.<br>
-                    - Variables can be declared using 'var', 'let', 'const'.<br>
-                    - 'let' and 'const' keywords introduced in ES5.<br>
-                    </li>
-            </ul>
-            <hr>
-            <h1>String</h1>
-            <ul>
-                <li> - Strings can be declared with '', "", ``<br>
-                    - `` is introduced in ES6.<br>
-                    - `` is used to define multiline strings.<br>
-                       
-                   var wish = 'Good afternoon'<br>
-                   console.log(wish)<br>
-                   var sub = 'Javascript'<br>
-                   console.log(sub)<br>
-                   var myWish = `Welcome to ${sub}`<br>
-                   console.log(myWish)</li>
-            </ul>
-            <hr>
-            <h1>Numbers</h1>
+                </ul>
+            </div>
+            <div class="tab-pane fade show" id="str">
+                <h1>String</h1>
+                <ul>
+                    <li> - Strings can be declared with '', "", ``<br>
+                        - `` is introduced in ES6.<br>
+                        - `` is used to define multiline strings.<br>
+                           
+                       var wish = 'Good afternoon'<br>
+                       console.log(wish)<br>
+                       var sub = 'Javascript'<br>
+                       console.log(sub)<br>
+                       var myWish = `Welcome to ${sub}`<br>
+                       console.log(myWish)</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade show" id="num">
+                <h1>Numbers</h1>
             <ul>
                 <li>- Javascript supports decimal, double, hexadecimal, octal and binary numbers.</li>
+                <li>
+                    <button class="nav-link text-light bg-dark" id="example1" onclick="Example1()" class="css">For Example</button>
+                </li>
+                <div class="tab-pane fade show" id="ex2">
+                    <div id="exam1" style="display: none;" >
                 <li>var decimal = 100<br>
                     console.log(decimal)<br>
                     var double = 12.43<br>
@@ -118,19 +225,16 @@
                     var octal = 0o127<br>
                     console.log(octal)<br>
                     var binary = 0b11<br>
-                    console.log(binary)<br>
-                    //Output will be in base 10 form<br>
-                    //all alphabates are case insensitive<br>
+                    console.log(binary)<br><br>
+                    //Output will be in base 10 form<br><br>
+                    //all alphabates are case insensitive<br><br>
                     
                     Boolean<br>
                     var flag = true<br>
                     console.log(flag)<br>
                     var flag = false<br>
                     console.log(flag)<br>
-                        
-                        
-                        
-                    //var v/s let<br>
+                        <hr>
                     //Eg01<br>
                     /*
                     for(var i = 0; i < 10; i++)<br>
@@ -140,7 +244,7 @@
                     for (let i = 0; i < 10; i++)<br>
                     {}<br>
                     console.log(i)  //ReferenceError: i is not defined<br>
-                    
+                    <hr>
                     //Eg02<br>
                     var data = 200<br>
                     var data = 400<br>
@@ -148,7 +252,7 @@
                     let num = 100<br>
                     //let num = 200  <br>   //SyntaxError: Identifier 'num' has already been declared
                     console(num)<br>
-                    
+                    <hr>
                     //Eg03<br>
                     var data = 100<br>
                     {<br>
@@ -161,6 +265,7 @@
                     }<br>
                     console.log(num)    //100<br>
                     //global polluting issue:- local variables affecting global variables.<br>
+                    <hr>
                     
                     //Eg04<br>
                     
@@ -169,6 +274,7 @@
                     //console.log(num)<br>    //ReferenceError: Cannot access 'num' before initialization
                     let num = 200<br>
                     */<br>
+                    <hr>
                     //Eg05<br>
                     const data = {<br>
                         value : 100<br>
@@ -179,26 +285,37 @@
                     data = {}       //TypeError: Assignment to constant variable.<br>
 
                         </li>
+                        </div>
+                        </div>
             </ul>
-            <hr>
-            <h1>Operators</h1>
-            <ul>
-                <li>i)Arithmetic operators	-> eg +, -, *, /, %, ++, --, **<br>
-                    ii)Relational operators	-> eg ==, !=, >, <, >=, <=, <br>
-                    iii)Logical operators	-> eg &&, ||, !<br>
-                    iv)Bitwise operators	-> eg &, |, ^, ~, <<, >><br>
-                    v)Assignmet operators	-> eg =, +=, -=, *=, /=,...,<<=,>>=,...<br>
-                    Strictly equal to 		-> ===</li><br><br>
-                    <li><h3>i)Arithmetic Operators</h3></li>
-                    <li>Consider A = 25, B = 7, 	Calculate C<br>
-                        C = A + B it adds A & B,			C = 32<br>
-                        C = A - B it substracts B from A 	C = 18<br>
-                        C = A * B it multiplies A and B		C = 175<br>
-                        C = A / B it devides A by B			C = 3.571428571428571<br>
-                        C = A % B it stores reminder of division of A by B, C = 4<br>
-                        A++ it increments A by 1	A = 26<br>
-                        B-- it decrements B by 1	B = 6<br>
-                        3 ** 4	-> 81</li><br><br>
+            </div>
+            <div class="tab-pane fade show" id="operator">
+                <h1>Operators</h1>
+                <ul>
+                    <li>i)Arithmetic operators	-> eg +, -, *, /, %, ++, --, **<br>
+                        <li>
+                            <button class="nav-link text-light bg-dark" id="example2" onclick="Example2()" class="css">For Example</button>
+                        </li>
+                        <div class="tab-pane fade show" id="ex3">
+                            <div id="exam2" style="display: none;" >
+                        <li><h3>i)Arithmetic Operators</h3></li>
+                        <li>Consider A = 25, B = 7, 	Calculate C<br>
+                            C = A + B it adds A & B,			C = 32<br>
+                            C = A - B it substracts B from A 	C = 18<br>
+                            C = A * B it multiplies A and B		C = 175<br>
+                            C = A / B it devides A by B			C = 3.571428571428571<br>
+                            C = A % B it stores reminder of division of A by B, C = 4<br>
+                            A++ it increments A by 1	A = 26<br>
+                            B-- it decrements B by 1	B = 6<br>
+                            3 ** 4	-> 81</li><br><br>
+                            </div>
+                            </div>
+                        ii)Relational operators	-> eg ==, !=, >, <, >=, <=, <br>
+                        <li>
+                            <button class="nav-link text-light bg-dark" id="example3" onclick="Example3()" class="css">For Example</button>
+                        </li>
+                        <div class="tab-pane fade show" id="ex4">
+                            <div id="exam3" style="display: none;" >
                         <li><h3> ii)Relational Operators</h3></li>
                         <li>Consider A = 5, B = 10, C = 5<br>
                             d = '5'<br>
@@ -211,46 +328,82 @@
                             A >= C 		True<br>
                             C < B 		True<br>
                             B < C 		False</li>
-                            <li><h3> iii)Logical Operators</h3></li>
-                            <li>Consider A = 1, B = 0<br>
-                                (A && B) -> 0<br>
-                                (A || B) -> 1<br>
-                                !(A && B)-> True</li>
-                                <br>
-                                <li><h3> iv)Bitwise Operators</h3></li>
-                                    <li>2's complement form = 1's complement + 1<br>
-                                        1's complement form = replace 0's with 1's and vice versa
-                                        </li><br>
-            </ul>
-            <hr>
-            <h1>Control Statements</h1>
+                            </div>
+                            </div>
+                        iii)Logical operators	-> eg &&, ||, !<br>
+                        <li>
+                            <button class="nav-link text-light bg-dark" id="example4" onclick="Example4()" class="css">For Example</button>
+                        </li>
+                        <div class="tab-pane fade show" id="ex5">
+                            <div id="exam4" style="display: none;">
+                        <li><h3> iii)Logical Operators</h3></li>
+                        <li>Consider A = 1, B = 0<br>
+                            (A && B) -> 0<br>
+                            (A || B) -> 1<br>
+                            !(A && B)-> True</li>
+                            </div>
+                            </div>
+                        iv)Bitwise operators	-> eg &, |, ^, ~, <<, >><br>
+                        <li>
+                            <button class="nav-link text-light bg-dark" id="example15" onclick="Example15()" class="css">For Example</button>
+                        </li>
+                        <div class="tab-pane fade show" id="ex16">
+                            <div id="exam15" style="display: none;">
+                                   
+                                    <li><h3> iv)Bitwise Operators</h3></li>
+                                        <li>2's complement form = 1's complement + 1<br>
+                                            1's complement form = replace 0's with 1's and vice versa
+                                            </li><br>
+                                            </div>
+                                            </div>
+                        v)Assignmet operators	-> eg =, +=, -=, *=, /=,...,<<=,>>=,...<br>
+                        Strictly equal to 		-> ===</li><br><br>
+                       
+                            
+                       
+                </ul>
+            </div>
+            <div class="tab-pane fade show" id="control">
+                <h1>Control Statements</h1>
             <ul>
                 <li>changing flow of a program.<br>
 
                     types<br>
                         i)Decision Control<br>
-                        ii)Looping Control<br>
-                        iii)Case Control</li><br>
-
                         <li>
-                           <h3>i) Decision Control(if Statements)</h3> <br>
-                            /*Simple if*/<br>
-                            if(no < 0)<br>
-                                negative<br>
-                            
-                            /*if-else*/<br>
-                            if (no < 0)<br>
-                                negative<br>
-                            else<br>
-                                positive<br>
-                            
-                            /*if-else ladder*/<br>
-                            if (no < 0)<br>
-                                negative<br>
-                            else if (no > 0)<br>
-                                positive<br>
-                            else    <br>
-                                zero</li><br>
+                            <button class="nav-link text-light bg-dark" id="example5" onclick="Example5()" class="css">For Example</button>
+                        </li>
+                        <div class="tab-pane fade show" id="ex6">
+                            <div id="exam5" style="display: none;">
+                                <li>
+                                    <h3>i) Decision Control(if Statements)</h3> <br>
+                                     /*Simple if*/<br>
+                                     if(no < 0)<br>
+                                         negative<br>
+                                     
+                                     /*if-else*/<br>
+                                     if (no < 0)<br>
+                                         negative<br>
+                                     else<br>
+                                         positive<br>
+                                     
+                                     /*if-else ladder*/<br>
+                                     if (no < 0)<br>
+                                         negative<br>
+                                     else if (no > 0)<br>
+                                         positive<br>
+                                     else    <br>
+                                         zero</li><br>
+                                </div>
+                                </div>
+
+                        ii)Looping Control<br>
+                        <li>
+                            <button class="nav-link text-light bg-dark" id="example6" onclick="Example6()" class="css">For Example</button>
+                        </li>
+                        <div class="tab-pane fade show" id="ex7">
+                            <div id="exam6" style="display: none;">
+                                  
                                 <li><h3> ii)Looping Control</h3></li>
                                 <li>important <br>
                                     Intitalization <br>
@@ -282,114 +435,179 @@
                                     Incrementing Factor <br>
                                 } <br>
                                 while(Termination)</li> <br>
+                                </div>
+                                </div>
+
+                        iii)Case Control</li><br>         
             </ul>
-             <hr>
-             <h1>Functions</h1>
-             <ul>
-                 <li> - A particular business logic is called as function. <br>
-                    - Functions are used to reuse business logic. <br>
-                    - We have following type of functions <br>
-                       i) Named functions <br>
-                       ii)Anonymous functions <br>
-                       iii)Constructor functions	 <br>
-                    - We can pass various types parameters to functions <br>
-                       i) Rest Parameters <br>
-                       ii)Optional Parameters <br>
-                       iii)Default Parameters</li> <br>
-                       <li><h3> i) Named functions</h3></li>
-                       <li> function with name is called as named functions</li>
-                       <li>Syntax<br>
-                        //function definiton<br>
-                        function function_name(parameters)<br>
-                        {<br>
-                            //business logic<br>
-                        }<br>
-                        
-                        //calling function<br>
-                        function_name(arguments)</li><br>
-                        <li><h3> Anonymous functions</h3></li>
-                        <li> - the function without name is called as anonymous function.<br>
-                            - these are also called as arrow functions or callback functions.<br>
-                            - we can represent arrow functions by '=>' arrow symbol.<br>
-                            - Arrow functions introduced in ES6.<br>
-                            - Arrow functions are more secured than named functions.<br>
-                            - anonymous functions utilize heap memory efficiently.<br>
+            </div>
+            <div class="tab-pane fade show" id="fun">
+                <h1>Functions</h1>
+                <ul>
+                    <li> - A particular business logic is called as function. <br>
+                       - Functions are used to reuse business logic. <br>
+                       - We have following type of functions <br>
+                          i) Named functions <br>
+                          <li><h3> i) Named functions</h3></li>
+                          <li> function with name is called as named functions</li>
+                          <li>
+                            <button class="nav-link text-light bg-dark" id="example7" onclick="Example7()" class="css">For Example</button>
+                        </li>
+                        <div class="tab-pane fade show" id="ex8">
+                            <div id="exam7" style="display: none;">
+                          <li>
                            
-                           Syntax<br>
-                               //function definition<br>
-                               var / let variablename = (arguments) => {<br>
-                                   //business logic		<br>
-                               }<br>
-                               
-                               //calling function<br>
-                               variablename(parameters)</li><br>
-             </ul>
-             <hr>
-             <h1>Constructor Functions</h1>
+                           function function_name(parameters)<br>
+                           {<br>
+                               //business logic<br>
+                           }<br>
+                           
+                           //calling function<br>
+                           function_name(arguments)</li><br>
+                           </div>
+                           </div>
+                          ii)Anonymous functions <br>
+                          <li>
+                            <button class="nav-link text-light bg-dark" id="example8" onclick="Example8()" class="css">For Example</button>
+                        </li>
+                        <div class="tab-pane fade show" id="ex9">
+                            <div id="exam8" style="display: none;">
+                           <li><h3> Anonymous functions</h3></li>
+                           <li> - the function without name is called as anonymous function.<br>
+                               - these are also called as arrow functions or callback functions.<br>
+                               - we can represent arrow functions by '=>' arrow symbol.<br>
+                               - Arrow functions introduced in ES6.<br>
+                               - Arrow functions are more secured than named functions.<br>
+                               - anonymous functions utilize heap memory efficiently.<br>
+                              
+                              Syntax<br>
+                                  //function definition<br>
+                                  var / let variablename = (arguments) => {<br>
+                                      //business logic		<br>
+                                  }<br>
+                                  
+                                  //calling function<br>
+                                  variablename(parameters)</li><br>
+                                  </div>
+                                  </div>
+                          iii)Constructor functions	 <br>
+                       - We can pass various types parameters to functions <br>
+                          i) Rest Parameters <br>
+                          ii)Optional Parameters <br>
+                          iii)Default Parameters</li> <br>
+                          
+                           
+                </ul>
+            </div>
+            
+            <div class="tab-pane fade show" id="constructor">
+                <h1>Constructor Functions</h1>
              <ul>
                  <li>- Constructor Function is used to create class like structure.<br>
                     - In constructor function everything (variables and functions) should
                       start with 'this' keyword.<br>
                     - We can create object to constructor using 'new' keyword.<br>
                     </li>
+                    <li>
+                        <button class="nav-link text-light bg-dark" id="example9" onclick="Example9()" class="css">For Example</button>
+                    </li>
+                    <div class="tab-pane fade show" id="ex10">
+                        <div id="exam9" style="display: none;">
                     <li>function class_one()<br>
                         {<br>
                             this.wish = "Welcome to contructor functions"<br>
                         }<br>
                         var obj = new class_one()<br>
                         console.log(obj.wish)</li><br>
+                    </div>
+                </div><hr>
                         <li><h3>Prototype</h3></li>
                         <li>Prototype is a property which adds members to constructor dynamically.</li>
                         <li>function class_one(){}<br>
                             class_one.prototype.wish = `Welcome to Prototype`<br>
                             console.log(new class_one().wish)</li><br>
-             </ul>
-             <hr>
-             <h1>Passing parameters to functions</h1>
-             <ul>
-                 <li><h3>1. Default parameters</h3></li>
-                 <li> - It allows named parameters to be intialysed with default
-                    values if no value or undefined is passed.
-                 </li>
-                 <li>function fun_one(arg1 = 10, arg2 = "FullStack", arg3 = "Angular")<br>
-                    {<br>
-                        console.log(arg1, arg2, arg3)<br>
-                    }
-                    </li><br>
-                    <li><h3>2. Optional Parameters</h3></li>
-                    <li>- While calling a function no need to pass all arguments.<br>
-                        - We can keep few arguments as optional.<br>
-                        - Optional parameters instroduced in ES6.<br>
                        
-                       function fun_one(arg1, arg2, arg3)<br>
+                            
+             </ul>
+            </div>
+            <div class="tab-pane fade show" id="parameter">
+                <h1>Passing parameters to functions</h1>
+                <ul>
+                    <li><h3>1. Default parameters</h3></li>
+                    <li> - It allows named parameters to be intialysed with default
+                       values if no value or undefined is passed.
+                    </li>
+                    <li>
+                        <button class="nav-link text-light bg-dark" id="example10" onclick="Example10()" class="css">For Example</button>
+                    </li>
+                    <div class="tab-pane fade show" id="ex11">
+                        <div id="exam10" style="display: none;">
+                    <li>function fun_one(arg1 = 10, arg2 = "FullStack", arg3 = "Angular")<br>
                        {<br>
                            console.log(arg1, arg2, arg3)<br>
-                       }</li><br>
+                       }
+                       </li><br>
+                       </div>
+                    </div>
                        <li><h3>2. Optional Parameters</h3></li>
-                       <li>- it is improved way to handle function parameters.<br>
-                        - It allows us to represent infinite number of arguments as an array.<br>
-                        - rest parameters represented by '...'<br>
-                       function fun_one(...arg)<br>
-                       {<br>
-                           console.log(arg)<br>
-                       }</li><br>
-             </ul>
-             <hr>
-             <h1>JSON</h1>
+                       <li>- While calling a function no need to pass all arguments.<br>
+                           - We can keep few arguments as optional.<br>
+                           - Optional parameters instroduced in ES6.<br>
+                           <li>
+                            <button class="nav-link text-light bg-dark" id="example16" onclick="Example16()" >For Example</button>
+                        </li>
+                        <div class="tab-pane fade show" id="ex17">
+                            <div id="exam16" style="display: none;">
+                                <li>
+                          function fun_one(arg1, arg2, arg3)<br>
+                          {<br>
+                              console.log(arg1, arg2, arg3)<br>
+                          }</li><br>
+                        </div>
+                        </div>
+                          <li><h3>3. Rest Parameters</h3></li>
+                          <li>- it is improved way to handle function parameters.<br>
+                           - It allows us to represent infinite number of arguments as an array.<br>
+                           - rest parameters represented by '...'<br>
+                           <li>
+                            <button class="nav-link text-light bg-dark" id="example17" onclick="Example17()" >For Example</button>
+                        </li>
+                        <div class="tab-pane fade show" id="ex18">
+                            <div id="exam17" style="display: none;">
+                         <li> function fun_one(...arg)<br>
+                          {<br>
+                              console.log(arg)<br>
+                          }</li><br>
+                        </div>
+                        </div>
+
+                </ul>
+            </div>
+
+            <div class="tab-pane fade show" id="json">
+                <h1>JSON</h1>
              <ul>
                  <li>- JSON stands for JavaScript Object Notation.<br>
                     - JSON os is used to share data over Network.<br>
                     - JSON is light weight as compared to XML.<br>
                     - Parsing (reading) of JSON is easy as compared to XML.</li><br>
-                    <li>- Syntax<br>
+                    <li>
+                        <button class="nav-link text-light bg-dark" id="example11" onclick="Example11()">For Example</button>
+                    </li>
+                    <div class="tab-pane fade show" id="ex12">
+                        <div id="exam11" style="display: none;">
+                    <li>
                         Object	{}<br>
                         Arrays	[]<br>
                         data	key and value pairs<br>
                                 keys and values are separated by ':'<br>
                                 key value pairs are separated by ','</li><br>
+                                </div>
+                                </div>
              </ul>
-             <hr>
-             <h1>Promises</h1>
+            </div>
+            <div class="tab-pane fade show" id="promise">
+                <h1>Promises</h1>
              <ul>
                  <li> - Promises are used to handle asynchronous operations in Javascript.<br>
                     - Promises are special Javascript objects.<br>
@@ -399,32 +617,53 @@
                     - Promises can be created using 'Promise' class.<br>
                     - 'Promise' is the predefined class in Javascript.<br>
                     - Promises can be consumed using 'then()'</li><br>
-                    <li>//Eg01<br>
+                    <li>
+                        <button class="nav-link text-light bg-dark" id="example12" onclick="Example12()" class="css">For Example</button>
+                    </li>
+                    <div class="tab-pane fade show" id="ex13">
+                        <div id="exam12" style="display: none;">
+                    <li>
                         //creating promise<br>
                         let my_promise = new Promise((resolve, reject)=>{<br>
                             resolve("Tomorrow i will be at home")<br>
                         })</li><br>
+                       
                         <li>//consume promise<br>
                             my_promise.then((posRes)=>{<br>
                                 console.log(posRes)<br>
                             },(errRes)=>{<br>
                                 console.log(errRes)<br>
                             })</li><br>
+                        </div>
+                    </div>
 
                             <li><h3>async and await</h3></li>
                             <li>- Netscape released above keywords in ES9.<br>
                                 - Above keywords are used to increase code readability.<br>
                                 - These keywords increase application performance.</li><br>
+                                <li>
+                                    <button class="nav-link text-light bg-dark" id="example13" onclick="Example13()" class="css">For Example</button>
+                                </li>
+                                <div class="tab-pane fade show" id="ex14">
+                                    <div id="exam13" style="display: none;">
                                 <li>async function my_fun()<br>
                                     {<br>
                                         let res = await my_promise<br>
                                         console.log(res)<br>
                                     }</li><br>
+                                    </div>
+                                    </div>
              </ul>
-             <hr>
-             <h1>Callbacks</h1>
+            </div>
+            <div class="tab-pane fade show" id="callback">
+                <h1>Callbacks</h1>
              <ul>
                  <li>Passing one function to another function as argument is called as callback.</li><br>
+                 <li>
+                    <button class="nav-link text-light bg-dark" id="example14" onclick="Example14()" style="margin:10px;" >For Example</button>
+                </li>
+                <div class="tab-pane fade show" id="ex15" >
+                    <div id="exam14" style="display: none;">
                  <li>function add(num, callback)<br>
                     {<br>
                         return callback((num+5),false)<br>
@@ -463,11 +702,12 @@
                                         }<br>
                                     })<br>
                                 }<br>
-                            })<br>
-                        }<br>
-                    })</li><br>
-                    <li>//call back hell</li><br>
-                    <li>//Eg06<br>
+                            })
+                        }
+                    })</li>
+                    <li>//call back hell</li>
+                    <hr>
+                    <li>
                         function add(num)<br>
                         {<br>
                             return new Promise((resolve, reject)=>{<br>
@@ -506,7 +746,218 @@
                         
                         myFun()<br>
                         </li>
+                    </div>
+                </div>
              </ul>
             </div>
+
+            </div>
+            <div class="footer">
+                <span>@ Samriti</span>
+            </div>
+            <script>
+                    function Example1(){
+                var exText1 = document.getElementById("exam1");
+                console.log(exText1.innerText)
+                if(exText1.style.display ==='none'){
+                    exText1.style.display ="block"
+                }
+                else{
+                    exText1.style.display ="none"
+                }
+
+            }
+
+            function Example2(){
+                var exText2 = document.getElementById("exam2");
+                console.log(exText2.innerText)
+                if(exText2.style.display ==='none'){
+                    exText2.style.display ="block"
+                }
+                else{
+                    exText2.style.display ="none"
+                }
+
+            }
+
+            function Example3(){
+                var exText3 = document.getElementById("exam3");
+                console.log(exText3.innerText)
+                if(exText3.style.display ==='none'){
+                    exText3.style.display ="block"
+                }
+                else{
+                    exText3.style.display ="none"
+                }
+
+            }
+
+            function Example4(){
+                var exText4 = document.getElementById("exam4");
+                console.log(exText4.innerText)
+                if(exText4.style.display ==='none'){
+                    exText4.style.display ="block"
+                }
+                else{
+                    exText4.style.display ="none"
+                }
+
+            }
+
+            function Example5(){
+                var exText5 = document.getElementById("exam5");
+                console.log(exText5.innerText)
+                if(exText5.style.display ==='none'){
+                    exText5.style.display ="block"
+                }
+                else{
+                    exText5.style.display ="none"
+                }
+
+            }
+
+            function Example6(){
+                var exText6 = document.getElementById("exam6");
+                console.log(exText6.innerText)
+                if(exText6.style.display ==='none'){
+                    exText6.style.display ="block"
+                }
+                else{
+                    exText6.style.display ="none"
+                }
+
+            }
+
+            function Example7(){
+                var exText7 = document.getElementById("exam7");
+                console.log(exText7.innerText)
+                if(exText7.style.display ==='none'){
+                    exText7.style.display ="block"
+                }
+                else{
+                    exText7.style.display ="none"
+                }
+
+            }
+
+            function Example8(){
+                var exText8 = document.getElementById("exam8");
+                console.log(exText8.innerText)
+                if(exText8.style.display ==='none'){
+                    exText8.style.display ="block"
+                }
+                else{
+                    exText8.style.display ="none"
+                }
+
+            }
+
+            function Example9(){
+                var exText9 = document.getElementById("exam9");
+                console.log(exText9.innerText)
+                if(exText9.style.display ==='none'){
+                    exText9.style.display ="block"
+                }
+                else{
+                    exText9.style.display ="none"
+                }
+
+            }
+
+            function Example10(){
+                var exText10 = document.getElementById("exam10");
+                console.log(exText10.innerText)
+                if(exText10.style.display ==='none'){
+                    exText10.style.display ="block"
+                }
+                else{
+                    exText10.style.display ="none"
+                }
+
+            }
+
+            function Example11(){
+                var exText11 = document.getElementById("exam11");
+                console.log(exText11.innerText)
+                if(exText11.style.display ==='none'){
+                    exText11.style.display ="block"
+                }
+                else{
+                    exText11style.display ="none"
+                }
+
+            }
+
+            function Example12(){
+                var exText12 = document.getElementById("exam12");
+                console.log(exText12.innerText)
+                if(exText12.style.display ==='none'){
+                    exText12.style.display ="block"
+                }
+                else{
+                    exText12.style.display ="none"
+                }
+
+            }
+
+            function Example13(){
+                var exText13 = document.getElementById("exam13");
+                console.log(exText13.innerText)
+                if(exText13.style.display ==='none'){
+                    exText13.style.display ="block"
+                }
+                else{
+                    exText13.style.display ="none"
+                }
+
+            }
+
+            function Example14(){
+                var exText14 = document.getElementById("exam14");
+                console.log(exText14.innerText)
+                if(exText14.style.display ==='none'){
+                    exText14.style.display ="block"
+                }
+                else{
+                    exText14.style.display ="none"
+                }
+
+            }
+            function Example15(){
+                var exText15 = document.getElementById("exam15");
+                console.log(exText15.innerText)
+                if(exText15.style.display ==='none'){
+                    exText15.style.display ="block"
+                }
+                else{
+                    exText15.style.display ="none"
+                }
+
+            }
+            function Example16(){
+                var exText16 = document.getElementById("exam16");
+                console.log(exText16.innerText)
+                if(exText16.style.display ==='none'){
+                    exText16.style.display ="block"
+                }
+                else{
+                    exText16.style.display ="none"
+                }
+
+            }
+            function Example17(){
+                var exText17 = document.getElementById("exam17");
+                console.log(exText17.innerText)
+                if(exText17.style.display ==='none'){
+                    exText17.style.display ="block"
+                }
+                else{
+                    exText17.style.display ="none"
+                }
+
+            }
+
+            </script>
+
     </body>
 </html>

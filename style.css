@@ -115,7 +115,7 @@ p{
     border-radius: 40px 0px 40px 0px;
     text-align: center;
     margin: 600px;
-    margin-top: -430px;
+    margin-top: -32%;
     margin-left: 700px;
    
 }
@@ -164,7 +164,7 @@ a:hover
     border-radius: 40px 0px 40px 0px;
     text-align: center;
     margin: 900px;
-    margin-top: -740px;
+    margin-top: -730px;
     margin-left: 1050px;
 }
 
@@ -186,7 +186,7 @@ a
 #contact
 {
     background:linear-gradient(to bottom,rgb(180, 67, 67),rgb(110, 110, 223),rgb(141, 65, 112));
-    margin-top: -870px;
+    margin-top: -880px;
     height:90%;
     padding-top:20px;
 }
